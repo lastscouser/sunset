@@ -1,11 +1,13 @@
-// Sunset Kurek Reservation Bot configuration.
-const fs = require("node:fs");
-const path = require("node:path");
+function loadDotEnv(filePath) {
+  if (process.env.CF_WORKER === "true") return;
 
-function loadDotEnv(filePath = path.join(__dirname, ".env")) {
-  if (!fs.existsSync(filePath)) return;
+  const fs = require("node:fs");
+  const path = require("node:path");
+  const envPath = filePath ?? path.join(__dirname, ".env");
 
-  const lines = fs.readFileSync(filePath, "utf8").split(/\r?\n/);
+  if (!fs.existsSync(envPath)) return;
+
+  const lines = fs.readFileSync(envPath, "utf8").split(/\r?\n/);
   lines.forEach((line) => {
     const trimmed = line.trim();
     if (!trimmed || trimmed.startsWith("#")) return;
@@ -94,7 +96,7 @@ module.exports = {
       },
       session: {
         preferredDays: ["Saturday", "Sunday"],
-        preferredTimes: ["06:00", "07:00", "10:00"],
+        preferredTimes: ["06:00", "07:00"],
       },
     },
 
@@ -121,12 +123,14 @@ module.exports = {
 
   session: {
     lookAheadDays: 7,
+    skipUsersOutsideCurrentHour:
+      env("SKIP_USERS_OUTSIDE_CURRENT_HOUR", "false") === "true",
   },
 
   trigger: {
     type: env("TRIGGER_TYPE", "slot_available"),
     triggerDate: env("TRIGGER_DATE", "2026-05-01"),
-    pollInterval: Number(env("POLL_INTERVAL_MS", 5 * 60 * 1000)),
+    pollInterval: Number(env("POLL_INTERVAL_MS", 30 * 60 * 1000)),
   },
 
   retry: {

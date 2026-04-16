@@ -33,6 +33,47 @@ DRY_RUN=true node index.js --once
 
 Environment variables exported in your shell take priority over values from `.env`.
 
+## Cloudflare Worker
+
+This bot can run on Cloudflare Workers as a cron job. The Worker runs one booking attempt per cron tick instead of keeping a long-running polling process alive.
+
+Install Wrangler if needed:
+
+```bash
+npm install --save-dev wrangler
+```
+
+Set production secrets:
+
+```bash
+npx wrangler secret put SUNSET_HAZAL_DUZEN_PASSWORD
+npx wrangler secret put SUNSET_BULENT_COSAN_PASSWORD
+npx wrangler secret put SUNSET_METEHAN_GUNEL_PASSWORD
+```
+
+Optional manual run endpoint protection:
+
+```bash
+npx wrangler secret put MANUAL_RUN_TOKEN
+```
+
+Deploy:
+
+```bash
+npx wrangler deploy
+```
+
+The cron schedule is configured in `wrangler.jsonc` and currently runs every 30 minutes.
+
+Cloudflare runs with `SKIP_USERS_OUTSIDE_CURRENT_HOUR=true`. On each cron tick, a user is skipped unless one of that user's `preferredTimes` matches the current hour in the configured Wix timezone. For example, at `06:30`, users with `06:00` in `preferredTimes` can run; users with only `07:00` are skipped until the next hour.
+
+Manual test run after deployment:
+
+```bash
+curl -X POST 'https://<worker-url>/run?dry_run=true' \
+  -H 'Authorization: Bearer <MANUAL_RUN_TOKEN>'
+```
+
 ## Users
 
 Users are configured in `config.js` under `users`.
@@ -147,7 +188,7 @@ Configured in `config.js`:
 trigger: {
   type: 'slot_available',
   triggerDate: '2026-05-01',
-  pollInterval: 5 * 60 * 1000,
+  pollInterval: 30 * 60 * 1000,
 }
 ```
 

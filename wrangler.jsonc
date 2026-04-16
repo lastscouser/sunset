@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sunset-reservation-bot",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-04-16",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "triggers": {
+    "crons": [
+      "*/30 * * * *"
+    ]
+  },
+  "vars": {
+    "DRY_RUN": "false",
+    "SKIP_USERS_OUTSIDE_CURRENT_HOUR": "true"
+  }
+}

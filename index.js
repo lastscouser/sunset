@@ -19,7 +19,7 @@ const TRIGGER_TYPES = {
   SLOT_AVAILABLE: 'slot_available',
 };
 
-const TERMINAL_REASONS = new Set(['no_slots', 'no_membership']);
+const TERMINAL_REASONS = new Set(['no_slots', 'no_membership', 'skipped_current_hour']);
 const completedUserKeys = new Set();
 let dryRun = false;
 
@@ -61,6 +61,21 @@ async function main() {
     default:
       throw new Error(`Unknown trigger: "${triggerType}". Check config.js`);
   }
+}
+
+async function runCloudflareScheduled(options = {}) {
+  completedUserKeys.clear();
+  logBanner();
+  validateConfig();
+
+  dryRun = options.dryRun ?? cfg.dryRun === true;
+
+  logger.info('Trigger: cloudflare scheduled');
+  if (dryRun) {
+    logger.warn('DRY RUN enabled — booking, checkout, and order creation will be skipped.');
+  }
+
+  return runWithRetry();
 }
 
 async function pollUntilBooked() {
@@ -151,8 +166,14 @@ async function book() {
   let noSlotCount = 0;
   let noMembershipCount = 0;
   let errorCount = 0;
+  let skippedCount = 0;
 
   for (const bookingUser of users) {
+    if (shouldSkipUserForCurrentHour(bookingUser)) {
+      skippedCount++;
+      continue;
+    }
+
     const result = await tryBookUser(bookingUser);
 
     if (result.success) {
@@ -168,6 +189,10 @@ async function book() {
   }
 
   const pendingUsers = getPendingUsers();
+
+  if (skippedCount > 0) {
+    logger.info(`${skippedCount} user(s) skipped because their preferredTimes do not match the current hour.`);
+  }
 
   if (!pendingUsers.length) {
     return { success: true, bookedCount, dryRun };
@@ -185,6 +210,10 @@ async function book() {
 
   if (noSlotCount > 0 && errorCount === 0) {
     return { success: false, reason: 'no_slots' };
+  }
+
+  if (skippedCount > 0 && errorCount === 0) {
+    return { success: false, reason: 'skipped_current_hour', bookedCount, skippedCount };
   }
 
   return { success: false, reason: 'user_failed' };
@@ -366,6 +395,38 @@ function getUserSession(user) {
   };
 }
 
+function shouldSkipUserForCurrentHour(user, now = new Date()) {
+  if (!cfg.session.skipUsersOutsideCurrentHour) {
+    return false;
+  }
+
+  const preferredTimes = getUserSession(user).preferredTimes;
+  if (!Array.isArray(preferredTimes) || preferredTimes.length === 0) {
+    return false;
+  }
+
+  const currentHour = getCurrentHourForTimezone(now, cfg.wix.timezone);
+  const matchesCurrentHour = preferredTimes.some(time => (
+    typeof time === 'string' && time.slice(0, 2) === currentHour
+  ));
+
+  if (!matchesCurrentHour) {
+    logger.info(
+      `⏭️  Skipping ${formatUser(user)}: current hour ${currentHour}:00 does not match preferredTimes ${preferredTimes.join(', ')}.`
+    );
+  }
+
+  return !matchesCurrentHour;
+}
+
+function getCurrentHourForTimezone(date, timezone) {
+  return new Intl.DateTimeFormat('en-GB', {
+    timeZone: timezone || 'UTC',
+    hour: '2-digit',
+    hour12: false,
+  }).format(date);
+}
+
 function getPendingUsers() {
   return getConfiguredUsers().filter(user => !completedUserKeys.has(getUserKey(user)));
 }
@@ -398,3 +459,12 @@ function formatUser(user) {
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
+
+module.exports = {
+  runCloudflareScheduled,
+  runWithRetry,
+  book,
+  validateConfig,
+  shouldSkipUserForCurrentHour,
+  getCurrentHourForTimezone,
+};
