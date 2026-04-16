@@ -89,6 +89,17 @@ module.exports = {
       },
     },
     {
+      name: "İsmail Altaş",
+      account: {
+        email: "ismailaltas@yandex.com",
+        password: env("SUNSET_ISMAIL_ALTAS_PASSWORD"),
+      },
+      session: {
+        preferredDays: ["Saturday", "Sunday"],
+        preferredTimes: ["06:00", "07:00"],
+      },
+    },
+    {
       name: "Metehan Günel",
       account: {
         email: "metehangnel@gmail.com",
