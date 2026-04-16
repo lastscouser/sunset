@@ -11,6 +11,10 @@
       "*/30 * * * *"
     ]
   },
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  },
   "vars": {
     "DRY_RUN": "false",
     "SKIP_USERS_OUTSIDE_CURRENT_HOUR": "true"
