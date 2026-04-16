@@ -1,0 +1,1883 @@
+[2026-04-16T08:11:37.848Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T08:11:37.854Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T08:11:37.854Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T08:11:37.854Z] [INFO ] Trigger: manual (--once)
+[2026-04-16T08:11:37.854Z] [INFO ] 🔄  Attempt 1/3
+[2026-04-16T08:11:37.854Z] [INFO ] 📅  Querying slots: 2026-04-16T11:11:37 → 2026-04-23T23:59:59
+[2026-04-16T08:11:37.854Z] [INFO ] 🔑  Token missing/expired — authenticating...
+[2026-04-16T08:11:37.854Z] [INFO ]   [1/3] Loading site to get anonymous token...
+[2026-04-16T08:11:38.516Z] [INFO ]   Anonymous token: DLtmAYhnYtsC9EyuHm5eSfx598XWuC...
+[2026-04-16T08:11:38.516Z] [INFO ]   [2/3] Logging in...
+[2026-04-16T08:11:39.293Z] [ERROR] Attempt 1 threw: Login failed: {"message":"wrong password","details":{"applicationError":{"code":"-19976"}}}
+[2026-04-16T08:11:39.294Z] [INFO ]   Retrying in 8s...
+[2026-04-16T08:11:47.296Z] [INFO ] 🔄  Attempt 2/3
+[2026-04-16T08:11:47.297Z] [INFO ] 📅  Querying slots: 2026-04-16T11:11:47 → 2026-04-23T23:59:59
+[2026-04-16T08:11:47.297Z] [INFO ] 🔑  Token missing/expired — authenticating...
+[2026-04-16T08:11:47.298Z] [INFO ]   [1/3] Loading site to get anonymous token...
+[2026-04-16T08:11:47.692Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T08:11:47.692Z] [INFO ]   [2/3] Logging in...
+[2026-04-16T08:11:48.480Z] [ERROR] Attempt 2 threw: Login failed: {"message":"wrong password","details":{"applicationError":{"code":"-19976"}}}
+[2026-04-16T08:11:48.481Z] [INFO ]   Retrying in 8s...
+[2026-04-16T08:11:56.482Z] [INFO ] 🔄  Attempt 3/3
+[2026-04-16T08:11:56.483Z] [INFO ] 📅  Querying slots: 2026-04-16T11:11:56 → 2026-04-23T23:59:59
+[2026-04-16T08:11:56.483Z] [INFO ] 🔑  Token missing/expired — authenticating...
+[2026-04-16T08:11:56.483Z] [INFO ]   [1/3] Loading site to get anonymous token...
+[2026-04-16T08:11:57.024Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T08:11:57.025Z] [INFO ]   [2/3] Logging in...
+[2026-04-16T08:11:57.825Z] [ERROR] Attempt 3 threw: Login failed: {"message":"wrong password","details":{"applicationError":{"code":"-19976"}}}
+[2026-04-16T08:11:57.826Z] [ERROR] All attempts exhausted.
+[2026-04-16T08:12:46.579Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T08:12:46.587Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T08:12:46.587Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T08:12:46.587Z] [INFO ] Trigger: manual (--once)
+[2026-04-16T08:12:46.587Z] [INFO ] 🔄  Attempt 1/3
+[2026-04-16T08:12:46.587Z] [INFO ] 📅  Querying slots: 2026-04-16T11:12:46 → 2026-04-23T23:59:59
+[2026-04-16T08:12:46.587Z] [INFO ] 🔑  Token missing/expired — authenticating...
+[2026-04-16T08:12:46.587Z] [INFO ]   [1/3] Loading site to get anonymous token...
+[2026-04-16T08:12:47.061Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T08:12:47.061Z] [INFO ]   [2/3] Logging in...
+[2026-04-16T08:12:48.210Z] [INFO ]   Login OK. sessionToken: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T08:12:48.210Z] [INFO ]   [3/3] Exchanging sessionToken for member token...
+[2026-04-16T08:12:48.441Z] [ERROR] Attempt 1 threw: Could not extract member token from booking page after login
+[2026-04-16T08:12:48.441Z] [INFO ]   Retrying in 8s...
+[2026-04-16T08:12:56.442Z] [INFO ] 🔄  Attempt 2/3
+[2026-04-16T08:12:56.443Z] [INFO ] 📅  Querying slots: 2026-04-16T11:12:56 → 2026-04-23T23:59:59
+[2026-04-16T08:12:56.443Z] [INFO ] 🔑  Token missing/expired — authenticating...
+[2026-04-16T08:12:56.443Z] [INFO ]   [1/3] Loading site to get anonymous token...
+[2026-04-16T08:12:56.859Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T08:12:56.860Z] [INFO ]   [2/3] Logging in...
+[2026-04-16T08:12:57.838Z] [INFO ]   Login OK. sessionToken: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T08:12:57.838Z] [INFO ]   [3/3] Exchanging sessionToken for member token...
+[2026-04-16T08:12:58.087Z] [ERROR] Attempt 2 threw: Could not extract member token from booking page after login
+[2026-04-16T08:12:58.087Z] [INFO ]   Retrying in 8s...
+[2026-04-16T08:13:06.088Z] [INFO ] 🔄  Attempt 3/3
+[2026-04-16T08:13:06.089Z] [INFO ] 📅  Querying slots: 2026-04-16T11:13:06 → 2026-04-23T23:59:59
+[2026-04-16T08:13:06.090Z] [INFO ] 🔑  Token missing/expired — authenticating...
+[2026-04-16T08:13:06.090Z] [INFO ]   [1/3] Loading site to get anonymous token...
+[2026-04-16T08:13:06.490Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T08:13:06.491Z] [INFO ]   [2/3] Logging in...
+[2026-04-16T08:13:07.567Z] [INFO ]   Login OK. sessionToken: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T08:13:07.567Z] [INFO ]   [3/3] Exchanging sessionToken for member token...
+[2026-04-16T08:13:08.197Z] [ERROR] Attempt 3 threw: Could not extract member token from booking page after login
+[2026-04-16T08:13:08.197Z] [ERROR] All attempts exhausted.
+[2026-04-16T08:20:08.100Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T08:20:08.107Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T08:20:08.107Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T08:20:08.107Z] [INFO ] Trigger: manual (--once)
+[2026-04-16T08:20:08.107Z] [INFO ] 🔄  Attempt 1/3
+[2026-04-16T08:20:08.107Z] [INFO ] 📅  Querying slots: 2026-04-16T11:20:08 → 2026-04-23T23:59:59
+[2026-04-16T08:20:08.107Z] [INFO ] 🔑  Token missing/expired — authenticating...
+[2026-04-16T08:20:08.107Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T08:20:08.611Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T08:20:08.612Z] [INFO ]   [2/4] Logging in...
+[2026-04-16T08:20:10.063Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T08:20:10.063Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T08:20:10.573Z] [INFO ]   Session cookie created.
+[2026-04-16T08:20:10.574Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T08:20:10.867Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T12:20:10.822Z
+[2026-04-16T08:20:10.868Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T08:20:11.494Z] [INFO ]   Total slots in window: 31
+[2026-04-16T08:20:11.494Z] [INFO ]   Bookable now:          5
+[2026-04-16T08:20:11.495Z] [INFO ]   Upcoming (too early):  21
+[2026-04-16T08:20:11.495Z] [INFO ]     • 2026-04-18T12:00:00  (opens 2026-04-16T09:00:00Z)
+[2026-04-16T08:20:11.495Z] [INFO ]     • 2026-04-18T13:00:00  (opens 2026-04-16T10:00:00Z)
+[2026-04-16T08:20:11.495Z] [INFO ]     • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T08:20:11.496Z] [INFO ]     Thursday 17:30  cap:1  score:1
+[2026-04-16T08:20:11.496Z] [INFO ]     Friday 18:00  cap:10  score:2
+[2026-04-16T08:20:11.496Z] [INFO ]     Friday 19:00  cap:10  score:2
+[2026-04-16T08:20:11.496Z] [INFO ]     Saturday 10:00  cap:3  score:0
+[2026-04-16T08:20:11.496Z] [INFO ]     Saturday 11:00  cap:11  score:0
+[2026-04-16T08:20:11.497Z] [INFO ]   🎯  Picked: Friday 18:00 (score 2, cap 10)
+[2026-04-16T08:20:11.497Z] [INFO ] ✅  Selected slot: 2026-04-17T18:00:00 → 2026-04-17T19:00:00
+[2026-04-16T08:20:11.497Z] [INFO ] 📝  Creating booking → 2026-04-17T18:00:00
+[2026-04-16T08:20:11.497Z] [INFO ]   → POST /_api/bookings-service/v2/bulk/bookings/create
+[2026-04-16T08:20:12.519Z] [INFO ]   ✅  bookingId: 64d7b9f2-6414-40af-bafc-94bd987d0825
+[2026-04-16T08:20:12.520Z] [INFO ] 🛒  Creating checkout → bookingId: 64d7b9f2-6414-40af-bafc-94bd987d0825
+[2026-04-16T08:20:12.520Z] [INFO ]   → POST /ecom/v1/checkouts
+[2026-04-16T08:20:13.851Z] [INFO ]   ✅  checkoutId: ca727402-8036-4f77-9f88-eb34594aa9f1
+[2026-04-16T08:20:13.851Z] [INFO ] 📦  Creating order → checkoutId: ca727402-8036-4f77-9f88-eb34594aa9f1
+[2026-04-16T08:20:13.852Z] [INFO ]   → POST /ecom/v1/checkouts/ca727402-8036-4f77-9f88-eb34594aa9f1/create-order
+[2026-04-16T08:20:15.154Z] [INFO ]   🎉  orderId: b7300135-c425-4e08-ae15-150b6a175bc4
+[2026-04-16T08:20:15.155Z] [INFO ] 
+[2026-04-16T08:20:15.155Z] [INFO ] ╔══════════════════════════════════════════╗
+[2026-04-16T08:20:15.155Z] [INFO ] ║  🎉  RESERVATION CONFIRMED!              ║
+[2026-04-16T08:20:15.155Z] [INFO ] ║  Slot:      2026-04-17T18:00             ║
+[2026-04-16T08:20:15.155Z] [INFO ] ║  Booking:   64d7b9f2-6414-40af-bafc-94bd9║
+[2026-04-16T08:20:15.155Z] [INFO ] ║  Order:     b7300135-c425-4e08-ae15-150b6║
+[2026-04-16T08:20:15.155Z] [INFO ] ╚══════════════════════════════════════════╝
+[2026-04-16T08:32:22.918Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T08:32:22.927Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T08:32:22.927Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T08:32:22.927Z] [INFO ] Trigger: manual (--once)
+[2026-04-16T08:32:22.928Z] [INFO ] 🔄  Attempt 1/3
+[2026-04-16T08:32:22.928Z] [INFO ] 📅  Querying slots: 2026-04-16T11:32:22 → 2026-04-23T23:59:59
+[2026-04-16T08:32:22.928Z] [INFO ] 🔑  Token missing/expired — authenticating...
+[2026-04-16T08:32:22.928Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T08:32:23.451Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T08:32:23.452Z] [INFO ]   [2/4] Logging in...
+[2026-04-16T08:32:24.562Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T08:32:24.562Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T08:32:25.060Z] [INFO ]   Session cookie created.
+[2026-04-16T08:32:25.060Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T08:32:25.369Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T12:32:25.346Z
+[2026-04-16T08:32:25.369Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T08:32:25.893Z] [INFO ]   Total slots in window: 31
+[2026-04-16T08:32:25.893Z] [INFO ]   Bookable now:          5
+[2026-04-16T08:32:25.893Z] [INFO ]   Upcoming (too early):  21
+[2026-04-16T08:32:25.893Z] [INFO ]     • 2026-04-18T12:00:00  (opens 2026-04-16T09:00:00Z)
+[2026-04-16T08:32:25.893Z] [INFO ]     • 2026-04-18T13:00:00  (opens 2026-04-16T10:00:00Z)
+[2026-04-16T08:32:25.893Z] [INFO ]     • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T08:32:25.893Z] [INFO ]     Thursday 17:30  cap:1  score:2
+[2026-04-16T08:32:25.893Z] [INFO ]     Friday 18:00  cap:10  score:2
+[2026-04-16T08:32:25.893Z] [INFO ]     Friday 19:00  cap:10  score:2
+[2026-04-16T08:32:25.893Z] [INFO ]     Saturday 10:00  cap:3  score:3
+[2026-04-16T08:32:25.893Z] [INFO ]     Saturday 11:00  cap:5  score:2
+[2026-04-16T08:32:25.894Z] [INFO ]   🎯  Picked: Saturday 10:00 (score 3, cap 3)
+[2026-04-16T08:32:25.894Z] [INFO ] ✅  Selected slot: 2026-04-18T10:00:00 → 2026-04-18T11:00:00
+[2026-04-16T08:32:25.894Z] [INFO ] 📝  Creating booking → 2026-04-18T10:00:00
+[2026-04-16T08:32:25.895Z] [INFO ]   → POST /_api/bookings-service/v2/bulk/bookings/create
+[2026-04-16T08:32:27.018Z] [INFO ]   ✅  bookingId: 4e593509-cd1a-44aa-8c64-8567a36cc246
+[2026-04-16T08:32:27.018Z] [INFO ] 🛒  Creating checkout → bookingId: 4e593509-cd1a-44aa-8c64-8567a36cc246
+[2026-04-16T08:32:27.019Z] [INFO ]   → POST /ecom/v1/checkouts
+[2026-04-16T08:32:28.554Z] [INFO ]   ✅  checkoutId: ca727402-1164-4340-b849-f87133a62c9a
+[2026-04-16T08:32:28.554Z] [INFO ] 📦  Creating order → checkoutId: ca727402-1164-4340-b849-f87133a62c9a
+[2026-04-16T08:32:28.554Z] [INFO ]   → POST /ecom/v1/checkouts/ca727402-1164-4340-b849-f87133a62c9a/create-order
+[2026-04-16T08:32:29.987Z] [INFO ]   🎉  orderId: 805ac978-7fea-42a1-b294-8d01f5e30bb8
+[2026-04-16T08:32:29.987Z] [INFO ] 
+[2026-04-16T08:32:29.987Z] [INFO ] ╔══════════════════════════════════════════╗
+[2026-04-16T08:32:29.987Z] [INFO ] ║  🎉  RESERVATION CONFIRMED!              ║
+[2026-04-16T08:32:29.987Z] [INFO ] ║  Slot:      2026-04-18T10:00             ║
+[2026-04-16T08:32:29.987Z] [INFO ] ║  Booking:   4e593509-cd1a-44aa-8c64-8567a║
+[2026-04-16T08:32:29.987Z] [INFO ] ║  Order:     805ac978-7fea-42a1-b294-8d01f║
+[2026-04-16T08:32:29.987Z] [INFO ] ╚══════════════════════════════════════════╝
+[2026-04-16T08:35:29.879Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T08:35:29.910Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T08:35:29.910Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T08:35:29.910Z] [INFO ] Trigger: manual (--once)
+[2026-04-16T08:35:29.910Z] [INFO ] 🔄  Attempt 1/3
+[2026-04-16T08:35:29.911Z] [INFO ] 📅  Querying slots: 2026-04-16T11:35:29 → 2026-04-23T23:59:59
+[2026-04-16T08:35:29.911Z] [INFO ] 🔑  Token missing/expired — authenticating...
+[2026-04-16T08:35:29.912Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T08:35:30.445Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T08:35:30.446Z] [INFO ]   [2/4] Logging in...
+[2026-04-16T08:35:31.540Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T08:35:31.550Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T08:35:32.013Z] [INFO ]   Session cookie created.
+[2026-04-16T08:35:32.013Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T08:35:32.332Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T12:35:32.305Z
+[2026-04-16T08:35:32.332Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T08:35:32.872Z] [INFO ]   Total slots in window: 31
+[2026-04-16T08:35:32.872Z] [INFO ]   Bookable now:          5
+[2026-04-16T08:35:32.872Z] [INFO ]   Upcoming (too early):  21
+[2026-04-16T08:35:32.873Z] [INFO ]     • 2026-04-18T12:00:00  (opens 2026-04-16T09:00:00Z)
+[2026-04-16T08:35:32.873Z] [INFO ]     • 2026-04-18T13:00:00  (opens 2026-04-16T10:00:00Z)
+[2026-04-16T08:35:32.873Z] [INFO ]     • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T08:35:32.873Z] [INFO ]     Thursday 17:30  cap:1  match:no
+[2026-04-16T08:35:32.873Z] [INFO ]     Friday 18:00  cap:10  match:no
+[2026-04-16T08:35:32.874Z] [INFO ]     Friday 19:00  cap:10  match:no
+[2026-04-16T08:35:32.874Z] [INFO ]     Saturday 10:00  cap:3  match:yes
+[2026-04-16T08:35:32.874Z] [INFO ]     Saturday 11:00  cap:5  match:no
+[2026-04-16T08:35:32.874Z] [INFO ]   🎯  Picked: Saturday 10:00 (cap 3)
+[2026-04-16T08:35:32.874Z] [INFO ] ✅  Selected slot: 2026-04-18T10:00:00 → 2026-04-18T11:00:00
+[2026-04-16T08:35:32.874Z] [INFO ] 📝  Creating booking → 2026-04-18T10:00:00
+[2026-04-16T08:35:32.875Z] [INFO ]   → POST /_api/bookings-service/v2/bulk/bookings/create
+[2026-04-16T08:35:33.997Z] [INFO ]   ✅  bookingId: 65282e53-1acc-41b5-b62b-dbd6a6a9745c
+[2026-04-16T08:35:33.998Z] [INFO ] 🛒  Creating checkout → bookingId: 65282e53-1acc-41b5-b62b-dbd6a6a9745c
+[2026-04-16T08:35:33.998Z] [INFO ]   → POST /ecom/v1/checkouts
+[2026-04-16T08:35:35.265Z] [INFO ]   ✅  checkoutId: ca727402-0ac4-412d-a979-7a8e6245e0ac
+[2026-04-16T08:35:35.266Z] [INFO ] 📦  Creating order → checkoutId: ca727402-0ac4-412d-a979-7a8e6245e0ac
+[2026-04-16T08:35:35.266Z] [INFO ]   → POST /ecom/v1/checkouts/ca727402-0ac4-412d-a979-7a8e6245e0ac/create-order
+[2026-04-16T08:35:36.761Z] [INFO ]   🎉  orderId: df767165-359b-4be0-872c-63deb9b62a0c
+[2026-04-16T08:35:36.761Z] [INFO ] 
+[2026-04-16T08:35:36.761Z] [INFO ] ╔══════════════════════════════════════════╗
+[2026-04-16T08:35:36.761Z] [INFO ] ║  🎉  RESERVATION CONFIRMED!              ║
+[2026-04-16T08:35:36.761Z] [INFO ] ║  Slot:      2026-04-18T10:00             ║
+[2026-04-16T08:35:36.762Z] [INFO ] ║  Booking:   65282e53-1acc-41b5-b62b-dbd6a║
+[2026-04-16T08:35:36.762Z] [INFO ] ║  Order:     df767165-359b-4be0-872c-63deb║
+[2026-04-16T08:35:36.762Z] [INFO ] ╚══════════════════════════════════════════╝
+[2026-04-16T08:40:27.119Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T08:40:27.131Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T08:40:27.131Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T08:40:27.131Z] [INFO ] Trigger: manual (--once)
+[2026-04-16T08:40:27.131Z] [INFO ] 🔄  Attempt 1/3
+[2026-04-16T08:40:27.132Z] [INFO ] 📅  Querying slots: 2026-04-16T11:40:27 → 2026-04-23T23:59:59
+[2026-04-16T08:40:27.132Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T08:40:27.132Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T08:40:27.132Z] [INFO ] 🔑  Token missing/expired — authenticating...
+[2026-04-16T08:40:27.132Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T08:40:27.654Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T08:40:27.654Z] [INFO ]   [2/4] Logging in...
+[2026-04-16T08:40:28.583Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T08:40:28.584Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T08:40:29.102Z] [INFO ]   Session cookie created.
+[2026-04-16T08:40:29.102Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T08:40:30.069Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T12:40:29.394Z
+[2026-04-16T08:40:30.069Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T08:40:30.564Z] [INFO ]     Total slots in window: 31
+[2026-04-16T08:40:30.564Z] [INFO ]     Bookable now:          5
+[2026-04-16T08:40:30.564Z] [INFO ]     Upcoming (too early):  21
+[2026-04-16T08:40:30.564Z] [INFO ]       • 2026-04-18T12:00:00  (opens 2026-04-16T09:00:00Z)
+[2026-04-16T08:40:30.564Z] [INFO ]       • 2026-04-18T13:00:00  (opens 2026-04-16T10:00:00Z)
+[2026-04-16T08:40:30.564Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T08:40:30.564Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T08:40:30.566Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T08:40:31.060Z] [INFO ]     Total slots in window: 14
+[2026-04-16T08:40:31.060Z] [INFO ]     Bookable now:          2
+[2026-04-16T08:40:31.060Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T08:40:31.060Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T08:40:31.060Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T08:40:31.060Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T08:40:31.061Z] [INFO ]   Total bookable across services: 7
+[2026-04-16T08:40:31.061Z] [INFO ]     Thursday 17:30  Antrenman Kürek  cap:1  match:no
+[2026-04-16T08:40:31.061Z] [INFO ]     Friday 18:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T08:40:31.061Z] [INFO ]     Friday 19:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T08:40:31.061Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:2  match:yes
+[2026-04-16T08:40:31.061Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T08:40:31.061Z] [INFO ]     Friday 08:00  Genel Kürek  cap:10  match:yes
+[2026-04-16T08:40:31.061Z] [INFO ]     Friday 09:00  Genel Kürek  cap:8  match:yes
+[2026-04-16T08:40:31.061Z] [INFO ]   🎯  Picked: Friday 08:00 Genel Kürek (cap 10)
+[2026-04-16T08:40:31.061Z] [INFO ] ✅  Selected slot: 2026-04-17T08:00:00 → 2026-04-17T09:00:00 (Genel Kürek)
+[2026-04-16T08:40:31.061Z] [INFO ] 📝  Creating booking → 2026-04-17T08:00:00 (Genel Kürek)
+[2026-04-16T08:40:31.061Z] [INFO ]   → POST /_api/bookings-service/v2/bulk/bookings/create
+[2026-04-16T08:40:32.219Z] [INFO ]   ✅  bookingId: 70572e00-473a-4480-940f-8c85898e2921
+[2026-04-16T08:40:32.219Z] [INFO ] 🛒  Creating checkout → bookingId: 70572e00-473a-4480-940f-8c85898e2921
+[2026-04-16T08:40:32.219Z] [INFO ]   → POST /ecom/v1/checkouts
+[2026-04-16T08:40:33.818Z] [INFO ]   ✅  checkoutId: ca727402-3d44-4e9e-9c3f-b248769e72db
+[2026-04-16T08:40:33.821Z] [INFO ] 📦  Creating order → checkoutId: ca727402-3d44-4e9e-9c3f-b248769e72db
+[2026-04-16T08:40:33.821Z] [INFO ]   → POST /ecom/v1/checkouts/ca727402-3d44-4e9e-9c3f-b248769e72db/create-order
+[2026-04-16T08:40:35.681Z] [INFO ]   🎉  orderId: f293168e-524b-40e4-a12f-24076cf4b7ae
+[2026-04-16T08:40:35.681Z] [INFO ] 
+[2026-04-16T08:40:35.681Z] [INFO ] ╔══════════════════════════════════════════╗
+[2026-04-16T08:40:35.681Z] [INFO ] ║  🎉  RESERVATION CONFIRMED!              ║
+[2026-04-16T08:40:35.681Z] [INFO ] ║  Slot:      2026-04-17T08:00             ║
+[2026-04-16T08:40:35.681Z] [INFO ] ║  Booking:   70572e00-473a-4480-940f-8c858║
+[2026-04-16T08:40:35.681Z] [INFO ] ║  Order:     f293168e-524b-40e4-a12f-24076║
+[2026-04-16T08:40:35.681Z] [INFO ] ╚══════════════════════════════════════════╝
+[2026-04-16T08:50:45.419Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T08:50:45.423Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T08:50:45.423Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T08:50:45.423Z] [INFO ] Trigger: manual (--once)
+[2026-04-16T08:50:45.423Z] [INFO ] 🔄  Attempt 1/3
+[2026-04-16T08:50:45.424Z] [INFO ] 📅  Querying slots: 2026-04-16T11:50:45 → 2026-04-23T23:59:59
+[2026-04-16T08:50:45.424Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T08:50:45.424Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T08:50:45.424Z] [INFO ] 🔑  Token missing/expired — authenticating...
+[2026-04-16T08:50:45.424Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T08:50:46.012Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T08:50:46.012Z] [INFO ]   [2/4] Logging in...
+[2026-04-16T08:50:47.039Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T08:50:47.039Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T08:50:47.596Z] [INFO ]   Session cookie created.
+[2026-04-16T08:50:47.596Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T08:50:47.885Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T12:50:47.895Z
+[2026-04-16T08:50:47.885Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T08:50:48.416Z] [INFO ]     Total slots in window: 31
+[2026-04-16T08:50:48.417Z] [INFO ]     Bookable now:          5
+[2026-04-16T08:50:48.417Z] [INFO ]     Upcoming (too early):  21
+[2026-04-16T08:50:48.417Z] [INFO ]       • 2026-04-18T12:00:00  (opens 2026-04-16T09:00:00Z)
+[2026-04-16T08:50:48.417Z] [INFO ]       • 2026-04-18T13:00:00  (opens 2026-04-16T10:00:00Z)
+[2026-04-16T08:50:48.417Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T08:50:48.417Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T08:50:48.417Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T08:50:48.928Z] [INFO ]     Total slots in window: 14
+[2026-04-16T08:50:48.928Z] [INFO ]     Bookable now:          2
+[2026-04-16T08:50:48.928Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T08:50:48.928Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T08:50:48.929Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T08:50:48.929Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T08:50:48.929Z] [INFO ]   Total bookable across services: 7
+[2026-04-16T08:50:48.929Z] [INFO ]     Thursday 17:30  Antrenman Kürek  cap:1  match:no
+[2026-04-16T08:50:48.929Z] [INFO ]     Friday 18:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T08:50:48.929Z] [INFO ]     Friday 19:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T08:50:48.929Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:2  match:yes
+[2026-04-16T08:50:48.929Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T08:50:48.929Z] [INFO ]     Friday 08:00  Genel Kürek  cap:9  match:yes
+[2026-04-16T08:50:48.929Z] [INFO ]     Friday 09:00  Genel Kürek  cap:8  match:yes
+[2026-04-16T08:50:48.930Z] [INFO ]   🎯  Picked: Friday 08:00 Genel Kürek (cap 9)
+[2026-04-16T08:50:48.930Z] [INFO ] ✅  Selected slot: 2026-04-17T08:00:00 → 2026-04-17T09:00:00 (Genel Kürek)
+[2026-04-16T08:50:48.930Z] [INFO ] 📝  Creating booking → 2026-04-17T08:00:00 (Genel Kürek)
+[2026-04-16T08:50:48.930Z] [INFO ]   → POST /_api/bookings-service/v2/bulk/bookings/create
+[2026-04-16T08:50:50.054Z] [INFO ]   ✅  bookingId: 14812b8c-c0e1-4712-9165-318e17936d64
+[2026-04-16T08:50:50.054Z] [INFO ] 🛒  Creating checkout → bookingId: 14812b8c-c0e1-4712-9165-318e17936d64
+[2026-04-16T08:50:50.055Z] [INFO ]   → POST /ecom/v1/checkouts
+[2026-04-16T08:50:51.487Z] [INFO ]   ✅  checkoutId: ca727402-f772-4592-ae7f-4c352aea72f2
+[2026-04-16T08:50:51.488Z] [INFO ] 📦  Creating order → checkoutId: ca727402-f772-4592-ae7f-4c352aea72f2
+[2026-04-16T08:50:51.488Z] [INFO ]   → POST /ecom/v1/checkouts/ca727402-f772-4592-ae7f-4c352aea72f2/create-order
+[2026-04-16T08:50:52.920Z] [INFO ]   🎉  orderId: 69718c01-3723-4049-9519-2abce555a79b
+[2026-04-16T08:50:52.920Z] [INFO ] 
+[2026-04-16T08:50:52.920Z] [INFO ] ╔══════════════════════════════════════════╗
+[2026-04-16T08:50:52.920Z] [INFO ] ║  🎉  RESERVATION CONFIRMED!              ║
+[2026-04-16T08:50:52.920Z] [INFO ] ║  Slot:      2026-04-17T08:00             ║
+[2026-04-16T08:50:52.920Z] [INFO ] ║  Service:   Genel Kürek                  ║
+[2026-04-16T08:50:52.921Z] [INFO ] ║  Booking:   14812b8c-c0e1-4712-9165-318e1║
+[2026-04-16T08:50:52.921Z] [INFO ] ║  Order:     69718c01-3723-4049-9519-2abce║
+[2026-04-16T08:50:52.921Z] [INFO ] ╚══════════════════════════════════════════╝
+[2026-04-16T09:16:22.978Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T09:16:22.984Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T09:16:22.984Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T09:16:22.984Z] [INFO ] Trigger: manual (--once)
+[2026-04-16T09:16:22.984Z] [INFO ] 🔄  Attempt 1/3
+[2026-04-16T09:16:22.984Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T09:16:22.984Z] [INFO ] 📅  Querying slots: 2026-04-16T12:16:22 → 2026-04-23T23:59:59
+[2026-04-16T09:16:22.984Z] [ERROR] User Bülent Coşan failed: formatUser is not defined
+[2026-04-16T09:16:22.984Z] [INFO ]   Retrying in 8s...
+[2026-04-16T09:16:30.985Z] [INFO ] 🔄  Attempt 2/3
+[2026-04-16T09:16:30.986Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T09:16:30.986Z] [INFO ] 📅  Querying slots: 2026-04-16T12:16:30 → 2026-04-23T23:59:59
+[2026-04-16T09:16:30.986Z] [ERROR] User Bülent Coşan failed: formatUser is not defined
+[2026-04-16T09:16:30.986Z] [INFO ]   Retrying in 8s...
+[2026-04-16T09:16:38.988Z] [INFO ] 🔄  Attempt 3/3
+[2026-04-16T09:16:38.988Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T09:16:38.988Z] [INFO ] 📅  Querying slots: 2026-04-16T12:16:38 → 2026-04-23T23:59:59
+[2026-04-16T09:16:38.988Z] [ERROR] User Bülent Coşan failed: formatUser is not defined
+[2026-04-16T09:16:38.988Z] [ERROR] All attempts exhausted.
+[2026-04-16T09:22:07.714Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T09:22:07.719Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T09:22:07.720Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T09:22:07.720Z] [INFO ] Trigger: manual (--once)
+[2026-04-16T09:22:07.720Z] [INFO ] 🔄  Attempt 1/3
+[2026-04-16T09:22:07.720Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T09:22:07.720Z] [INFO ] 📅  Querying slots: 2026-04-16T12:22:07 → 2026-04-23T23:59:59
+[2026-04-16T09:22:07.720Z] [ERROR] User Bülent Coşan failed: formatUser is not defined
+[2026-04-16T09:22:07.721Z] [INFO ]   Retrying in 8s...
+[2026-04-16T09:22:23.596Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T09:22:23.600Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T09:22:23.600Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T09:22:23.600Z] [INFO ] Trigger: manual (--once)
+[2026-04-16T09:22:23.600Z] [INFO ] 🔄  Attempt 1/3
+[2026-04-16T09:22:23.600Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T09:22:23.601Z] [INFO ] 📅  Querying slots: 2026-04-16T12:22:23 → 2026-04-23T23:59:59
+[2026-04-16T09:22:23.601Z] [ERROR] User Bülent Coşan failed: formatUser is not defined
+[2026-04-16T09:22:23.601Z] [INFO ]   Retrying in 8s...
+[2026-04-16T09:28:19.595Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T09:28:19.601Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T09:28:19.601Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T09:28:19.602Z] [INFO ] Trigger: manual (--once)
+[2026-04-16T09:28:19.602Z] [INFO ] 🔄  Attempt 1/3
+[2026-04-16T09:28:19.602Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T09:28:19.602Z] [INFO ] 📅  Querying slots: 2026-04-16T12:28:19 → 2026-04-23T23:59:59
+[2026-04-16T09:28:19.602Z] [ERROR] User Bülent Coşan failed: formatUser is not defined
+[2026-04-16T09:28:19.602Z] [INFO ]   Retrying in 8s...
+[2026-04-16T09:31:06.872Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T09:31:06.878Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T09:31:06.879Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T09:31:06.880Z] [INFO ] Trigger: manual (--once)
+[2026-04-16T09:31:06.880Z] [INFO ] 🔄  Attempt 1/3
+[2026-04-16T09:31:06.880Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T09:31:06.880Z] [INFO ] 📅  Querying slots: 2026-04-16T12:31:06 → 2026-04-23T23:59:59
+[2026-04-16T09:31:06.880Z] [ERROR] User Bülent Coşan failed: formatUser is not defined
+[2026-04-16T09:31:06.880Z] [INFO ]   Retrying in 8s...
+[2026-04-16T09:31:14.881Z] [INFO ] 🔄  Attempt 2/3
+[2026-04-16T09:31:14.882Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T09:31:14.882Z] [INFO ] 📅  Querying slots: 2026-04-16T12:31:14 → 2026-04-23T23:59:59
+[2026-04-16T09:31:14.882Z] [ERROR] User Bülent Coşan failed: formatUser is not defined
+[2026-04-16T09:31:14.882Z] [INFO ]   Retrying in 8s...
+[2026-04-16T09:31:22.883Z] [INFO ] 🔄  Attempt 3/3
+[2026-04-16T09:31:22.884Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T09:31:22.884Z] [INFO ] 📅  Querying slots: 2026-04-16T12:31:22 → 2026-04-23T23:59:59
+[2026-04-16T09:31:22.884Z] [ERROR] User Bülent Coşan failed: formatUser is not defined
+[2026-04-16T09:31:22.884Z] [ERROR] All attempts exhausted.
+[2026-04-16T09:31:51.854Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T09:31:51.859Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T09:31:51.859Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T09:31:51.859Z] [INFO ] Trigger: manual (--once)
+[2026-04-16T09:31:51.859Z] [INFO ] 🔄  Attempt 1/3
+[2026-04-16T09:31:51.859Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T09:31:51.859Z] [INFO ] 📅  Querying slots: 2026-04-16T12:31:51 → 2026-04-23T23:59:59
+[2026-04-16T09:31:51.859Z] [INFO ]   User: Bülent Coşan
+[2026-04-16T09:31:51.859Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T09:31:51.859Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T09:31:51.860Z] [INFO ] 🔑  Token missing/expired for Bülent Coşan — authenticating...
+[2026-04-16T09:31:51.860Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T09:31:52.474Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T09:31:52.474Z] [INFO ]   [2/4] Logging in as buletncosan@mail.com...
+[2026-04-16T09:31:53.482Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T09:31:53.482Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T09:31:53.953Z] [INFO ]   Session cookie created.
+[2026-04-16T09:31:53.953Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T09:31:54.247Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T13:31:54.227Z
+[2026-04-16T09:31:54.247Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T09:31:54.731Z] [INFO ]     Total slots in window: 31
+[2026-04-16T09:31:54.731Z] [INFO ]     Bookable now:          6
+[2026-04-16T09:31:54.731Z] [INFO ]     Upcoming (too early):  20
+[2026-04-16T09:31:54.731Z] [INFO ]       • 2026-04-18T13:00:00  (opens 2026-04-16T10:00:00Z)
+[2026-04-16T09:31:54.731Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T09:31:54.731Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T09:31:54.731Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T09:31:54.731Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T09:31:55.286Z] [INFO ]     Total slots in window: 14
+[2026-04-16T09:31:55.286Z] [INFO ]     Bookable now:          2
+[2026-04-16T09:31:55.286Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T09:31:55.286Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T09:31:55.286Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T09:31:55.286Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T09:31:55.286Z] [INFO ]   Total bookable across services: 8
+[2026-04-16T09:31:55.286Z] [INFO ]     Thursday 17:30  Antrenman Kürek  cap:1  match:no
+[2026-04-16T09:31:55.286Z] [INFO ]     Friday 18:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T09:31:55.286Z] [INFO ]     Friday 19:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T09:31:55.286Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:3  match:yes
+[2026-04-16T09:31:55.286Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T09:31:55.287Z] [INFO ]     Saturday 12:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T09:31:55.287Z] [INFO ]     Friday 08:00  Genel Kürek  cap:10  match:yes
+[2026-04-16T09:31:55.287Z] [INFO ]     Friday 09:00  Genel Kürek  cap:8  match:yes
+[2026-04-16T09:31:55.287Z] [INFO ]   🎯  Picked: Friday 08:00 Genel Kürek (cap 10)
+[2026-04-16T09:31:55.287Z] [INFO ] ✅  Selected slot: 2026-04-17T08:00:00 → 2026-04-17T09:00:00 (Genel Kürek)
+[2026-04-16T09:31:55.287Z] [INFO ] 📝  Creating booking → 2026-04-17T08:00:00 (Genel Kürek)
+[2026-04-16T09:31:55.287Z] [INFO ]   → POST /_api/bookings-service/v2/bulk/bookings/create
+[2026-04-16T09:31:56.518Z] [INFO ]   ✅  bookingId: acbf4e91-8d42-4a56-aa3a-b3404c6654a4
+[2026-04-16T09:31:56.518Z] [INFO ] 🛒  Creating checkout → bookingId: acbf4e91-8d42-4a56-aa3a-b3404c6654a4
+[2026-04-16T09:31:56.518Z] [INFO ]   → POST /ecom/v1/checkouts
+[2026-04-16T09:31:57.742Z] [INFO ]   ✅  checkoutId: ca727402-7750-4fb9-b0d0-4803f30c938d
+[2026-04-16T09:31:57.743Z] [INFO ] 📦  Creating order → checkoutId: ca727402-7750-4fb9-b0d0-4803f30c938d
+[2026-04-16T09:31:57.743Z] [INFO ]   → POST /ecom/v1/checkouts/ca727402-7750-4fb9-b0d0-4803f30c938d/create-order
+[2026-04-16T09:31:58.765Z] [ERROR] User Bülent Coşan failed: HTTP 428 on /ecom/v1/checkouts/ca727402-7750-4fb9-b0d0-4803f30c938d/create-order: {"message":"Calculation error","details":{"applicationError":{"code":"CALCULATION_ERROR","description":"Calculation error","data":{"orderValidationErrors":[],"membershipError":{"applicationError":{"code":"INVALID_MEMBERSHIP_SELECTION","description":"Provided membership selection is invalid","data":{"membershipInvalidSelectionErrors":[{"membershipId":"c1b2fd59-f8e0-48f0-abca-bacfdb5e2cd2/80aa1dad-cb42-43d1-9389-e7eca5d3e4ee","errorType":"MEMBERSHIP_NOT_FOUND"}]}},"tracing":{}}}}}}
+[2026-04-16T09:31:58.765Z] [INFO ]   Retrying in 8s...
+[2026-04-16T09:32:06.767Z] [INFO ] 🔄  Attempt 2/3
+[2026-04-16T09:32:06.767Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T09:32:06.767Z] [INFO ] 📅  Querying slots: 2026-04-16T12:32:06 → 2026-04-23T23:59:59
+[2026-04-16T09:32:06.767Z] [INFO ]   User: Bülent Coşan
+[2026-04-16T09:32:06.767Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T09:32:06.767Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T09:32:06.767Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T09:32:07.471Z] [INFO ]     Total slots in window: 31
+[2026-04-16T09:32:07.471Z] [INFO ]     Bookable now:          6
+[2026-04-16T09:32:07.471Z] [INFO ]     Upcoming (too early):  20
+[2026-04-16T09:32:07.471Z] [INFO ]       • 2026-04-18T13:00:00  (opens 2026-04-16T10:00:00Z)
+[2026-04-16T09:32:07.471Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T09:32:07.471Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T09:32:07.471Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T09:32:07.471Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T09:32:07.982Z] [INFO ]     Total slots in window: 14
+[2026-04-16T09:32:07.982Z] [INFO ]     Bookable now:          2
+[2026-04-16T09:32:07.982Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T09:32:07.982Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T09:32:07.982Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T09:32:07.982Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T09:32:07.982Z] [INFO ]   Total bookable across services: 8
+[2026-04-16T09:32:07.983Z] [INFO ]     Thursday 17:30  Antrenman Kürek  cap:1  match:no
+[2026-04-16T09:32:07.983Z] [INFO ]     Friday 18:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T09:32:07.983Z] [INFO ]     Friday 19:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T09:32:07.983Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:3  match:yes
+[2026-04-16T09:32:07.983Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T09:32:07.983Z] [INFO ]     Saturday 12:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T09:32:07.983Z] [INFO ]     Friday 08:00  Genel Kürek  cap:10  match:yes
+[2026-04-16T09:32:07.983Z] [INFO ]     Friday 09:00  Genel Kürek  cap:8  match:yes
+[2026-04-16T09:32:07.983Z] [INFO ]   🎯  Picked: Friday 08:00 Genel Kürek (cap 10)
+[2026-04-16T09:32:07.983Z] [INFO ] ✅  Selected slot: 2026-04-17T08:00:00 → 2026-04-17T09:00:00 (Genel Kürek)
+[2026-04-16T09:32:07.983Z] [INFO ] 📝  Creating booking → 2026-04-17T08:00:00 (Genel Kürek)
+[2026-04-16T09:32:07.983Z] [INFO ]   → POST /_api/bookings-service/v2/bulk/bookings/create
+[2026-04-16T09:32:08.921Z] [INFO ]   ✅  bookingId: dd4bcee7-0425-47ea-9329-4d509218e14c
+[2026-04-16T09:32:08.921Z] [INFO ] 🛒  Creating checkout → bookingId: dd4bcee7-0425-47ea-9329-4d509218e14c
+[2026-04-16T09:32:08.921Z] [INFO ]   → POST /ecom/v1/checkouts
+[2026-04-16T09:32:09.957Z] [INFO ]   ✅  checkoutId: ca727402-59b5-4782-b6d8-1d1f8a8d5bd3
+[2026-04-16T09:32:09.957Z] [INFO ] 📦  Creating order → checkoutId: ca727402-59b5-4782-b6d8-1d1f8a8d5bd3
+[2026-04-16T09:32:09.958Z] [INFO ]   → POST /ecom/v1/checkouts/ca727402-59b5-4782-b6d8-1d1f8a8d5bd3/create-order
+[2026-04-16T09:32:11.248Z] [ERROR] User Bülent Coşan failed: HTTP 428 on /ecom/v1/checkouts/ca727402-59b5-4782-b6d8-1d1f8a8d5bd3/create-order: {"message":"Calculation error","details":{"applicationError":{"code":"CALCULATION_ERROR","description":"Calculation error","data":{"orderValidationErrors":[],"membershipError":{"applicationError":{"code":"INVALID_MEMBERSHIP_SELECTION","description":"Provided membership selection is invalid","data":{"membershipInvalidSelectionErrors":[{"membershipId":"c1b2fd59-f8e0-48f0-abca-bacfdb5e2cd2/80aa1dad-cb42-43d1-9389-e7eca5d3e4ee","errorType":"MEMBERSHIP_NOT_FOUND"}]}},"tracing":{}}}}}}
+[2026-04-16T09:32:11.248Z] [INFO ]   Retrying in 8s...
+[2026-04-16T09:32:19.250Z] [INFO ] 🔄  Attempt 3/3
+[2026-04-16T09:32:19.252Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T09:32:19.252Z] [INFO ] 📅  Querying slots: 2026-04-16T12:32:19 → 2026-04-23T23:59:59
+[2026-04-16T09:32:19.252Z] [INFO ]   User: Bülent Coşan
+[2026-04-16T09:32:19.252Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T09:32:19.252Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T09:32:19.253Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T09:32:19.858Z] [INFO ]     Total slots in window: 31
+[2026-04-16T09:32:19.859Z] [INFO ]     Bookable now:          6
+[2026-04-16T09:32:19.859Z] [INFO ]     Upcoming (too early):  20
+[2026-04-16T09:32:19.859Z] [INFO ]       • 2026-04-18T13:00:00  (opens 2026-04-16T10:00:00Z)
+[2026-04-16T09:32:19.859Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T09:32:19.859Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T09:32:19.859Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T09:32:19.859Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T09:32:20.320Z] [INFO ]     Total slots in window: 14
+[2026-04-16T09:32:20.321Z] [INFO ]     Bookable now:          2
+[2026-04-16T09:32:20.321Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T09:32:20.321Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T09:32:20.321Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T09:32:20.321Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T09:32:20.321Z] [INFO ]   Total bookable across services: 8
+[2026-04-16T09:32:20.321Z] [INFO ]     Thursday 17:30  Antrenman Kürek  cap:1  match:no
+[2026-04-16T09:32:20.321Z] [INFO ]     Friday 18:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T09:32:20.321Z] [INFO ]     Friday 19:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T09:32:20.321Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:3  match:yes
+[2026-04-16T09:32:20.321Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T09:32:20.321Z] [INFO ]     Saturday 12:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T09:32:20.321Z] [INFO ]     Friday 08:00  Genel Kürek  cap:10  match:yes
+[2026-04-16T09:32:20.321Z] [INFO ]     Friday 09:00  Genel Kürek  cap:8  match:yes
+[2026-04-16T09:32:20.321Z] [INFO ]   🎯  Picked: Friday 08:00 Genel Kürek (cap 10)
+[2026-04-16T09:32:20.322Z] [INFO ] ✅  Selected slot: 2026-04-17T08:00:00 → 2026-04-17T09:00:00 (Genel Kürek)
+[2026-04-16T09:32:20.322Z] [INFO ] 📝  Creating booking → 2026-04-17T08:00:00 (Genel Kürek)
+[2026-04-16T09:32:20.322Z] [INFO ]   → POST /_api/bookings-service/v2/bulk/bookings/create
+[2026-04-16T09:32:21.398Z] [INFO ]   ✅  bookingId: 8e2c9e93-dd37-4dd9-94d4-7b179d9863e9
+[2026-04-16T09:32:21.398Z] [INFO ] 🛒  Creating checkout → bookingId: 8e2c9e93-dd37-4dd9-94d4-7b179d9863e9
+[2026-04-16T09:32:21.398Z] [INFO ]   → POST /ecom/v1/checkouts
+[2026-04-16T09:32:22.728Z] [INFO ]   ✅  checkoutId: ca727402-7c8c-436a-a310-373ed67e8e38
+[2026-04-16T09:32:22.729Z] [INFO ] 📦  Creating order → checkoutId: ca727402-7c8c-436a-a310-373ed67e8e38
+[2026-04-16T09:32:22.730Z] [INFO ]   → POST /ecom/v1/checkouts/ca727402-7c8c-436a-a310-373ed67e8e38/create-order
+[2026-04-16T09:32:23.853Z] [ERROR] User Bülent Coşan failed: HTTP 428 on /ecom/v1/checkouts/ca727402-7c8c-436a-a310-373ed67e8e38/create-order: {"message":"Calculation error","details":{"applicationError":{"code":"CALCULATION_ERROR","description":"Calculation error","data":{"orderValidationErrors":[],"membershipError":{"applicationError":{"code":"INVALID_MEMBERSHIP_SELECTION","description":"Provided membership selection is invalid","data":{"membershipInvalidSelectionErrors":[{"membershipId":"c1b2fd59-f8e0-48f0-abca-bacfdb5e2cd2/80aa1dad-cb42-43d1-9389-e7eca5d3e4ee","errorType":"MEMBERSHIP_NOT_FOUND"}]}},"tracing":{}}}}}}
+[2026-04-16T09:32:23.854Z] [ERROR] All attempts exhausted.
+[2026-04-16T09:53:43.185Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T09:53:43.190Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T09:53:43.190Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T09:53:43.190Z] [INFO ] Trigger: manual (--once)
+[2026-04-16T09:53:43.190Z] [INFO ] 🔄  Attempt 1/3
+[2026-04-16T09:53:43.190Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T09:53:43.190Z] [INFO ] 🔑  Token missing/expired for Bülent Coşan — authenticating...
+[2026-04-16T09:53:43.191Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T09:53:43.811Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T09:53:43.811Z] [INFO ]   [2/4] Logging in as buletncosan@mail.com...
+[2026-04-16T09:53:44.912Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T09:53:44.912Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T09:53:45.423Z] [INFO ]   Session cookie created.
+[2026-04-16T09:53:45.424Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T09:53:45.720Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T13:53:45.680Z
+[2026-04-16T09:53:45.720Z] [INFO ] 👤  Fetching member profile: 5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T09:53:45.721Z] [INFO ]   → GET /_api/members/v1/members/5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T09:53:46.067Z] [INFO ] 📅  Querying slots: 2026-04-16T12:53:46 → 2026-04-23T23:59:59
+[2026-04-16T09:53:46.067Z] [INFO ]   User: Bülent Coşan
+[2026-04-16T09:53:46.067Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T09:53:46.086Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T09:53:46.089Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T09:53:46.653Z] [INFO ]     Total slots in window: 31
+[2026-04-16T09:53:46.653Z] [INFO ]     Bookable now:          6
+[2026-04-16T09:53:46.653Z] [INFO ]     Upcoming (too early):  20
+[2026-04-16T09:53:46.653Z] [INFO ]       • 2026-04-18T13:00:00  (opens 2026-04-16T10:00:00Z)
+[2026-04-16T09:53:46.653Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T09:53:46.653Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T09:53:46.654Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T09:53:46.654Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T09:53:47.114Z] [INFO ]     Total slots in window: 14
+[2026-04-16T09:53:47.114Z] [INFO ]     Bookable now:          2
+[2026-04-16T09:53:47.115Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T09:53:47.115Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T09:53:47.115Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T09:53:47.115Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T09:53:47.115Z] [INFO ]   Total bookable across services: 8
+[2026-04-16T09:53:47.115Z] [INFO ]     Thursday 17:30  Antrenman Kürek  cap:1  match:no
+[2026-04-16T09:53:47.115Z] [INFO ]     Friday 18:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T09:53:47.115Z] [INFO ]     Friday 19:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T09:53:47.115Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:1  match:yes
+[2026-04-16T09:53:47.115Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T09:53:47.115Z] [INFO ]     Saturday 12:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T09:53:47.115Z] [INFO ]     Friday 08:00  Genel Kürek  cap:10  match:yes
+[2026-04-16T09:53:47.115Z] [INFO ]     Friday 09:00  Genel Kürek  cap:8  match:yes
+[2026-04-16T09:53:47.115Z] [INFO ]   🎯  Picked: Friday 08:00 Genel Kürek (cap 10)
+[2026-04-16T09:53:47.115Z] [INFO ] ✅  Selected slot: 2026-04-17T08:00:00 → 2026-04-17T09:00:00 (Genel Kürek)
+[2026-04-16T09:53:47.115Z] [INFO ] 📝  Creating booking → 2026-04-17T08:00:00 (Genel Kürek)
+[2026-04-16T09:53:47.115Z] [INFO ]   → POST /_api/bookings-service/v2/bulk/bookings/create
+[2026-04-16T09:53:48.087Z] [ERROR] User Bülent Coşan failed: Booking failed: {"itemMetadata":{"originalIndex":0,"success":false,"error":{"code":"INVALID_ARGUMENT","description":"Validation failed: phone must match format \"phone\", phone Phone number has incorrect country code","data":{}}}}
+[2026-04-16T09:53:48.087Z] [INFO ]   Retrying in 8s...
+[2026-04-16T09:53:56.088Z] [INFO ] 🔄  Attempt 2/3
+[2026-04-16T09:53:56.089Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T09:53:56.089Z] [INFO ] 👤  Fetching member profile: 5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T09:53:56.089Z] [INFO ]   → GET /_api/members/v1/members/5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T09:53:56.586Z] [INFO ] 📅  Querying slots: 2026-04-16T12:53:56 → 2026-04-23T23:59:59
+[2026-04-16T09:53:56.586Z] [INFO ]   User: Bülent Coşan
+[2026-04-16T09:53:56.586Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T09:53:56.586Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T09:53:56.586Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T09:53:57.303Z] [INFO ]     Total slots in window: 31
+[2026-04-16T09:53:57.303Z] [INFO ]     Bookable now:          6
+[2026-04-16T09:53:57.303Z] [INFO ]     Upcoming (too early):  20
+[2026-04-16T09:53:57.303Z] [INFO ]       • 2026-04-18T13:00:00  (opens 2026-04-16T10:00:00Z)
+[2026-04-16T09:53:57.303Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T09:53:57.303Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T09:53:57.303Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T09:53:57.303Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T09:53:57.814Z] [INFO ]     Total slots in window: 14
+[2026-04-16T09:53:57.815Z] [INFO ]     Bookable now:          2
+[2026-04-16T09:53:57.815Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T09:53:57.815Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T09:53:57.815Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T09:53:57.815Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T09:53:57.815Z] [INFO ]   Total bookable across services: 8
+[2026-04-16T09:53:57.815Z] [INFO ]     Thursday 17:30  Antrenman Kürek  cap:1  match:no
+[2026-04-16T09:53:57.815Z] [INFO ]     Friday 18:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T09:53:57.815Z] [INFO ]     Friday 19:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T09:53:57.815Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:1  match:yes
+[2026-04-16T09:53:57.815Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T09:53:57.815Z] [INFO ]     Saturday 12:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T09:53:57.815Z] [INFO ]     Friday 08:00  Genel Kürek  cap:10  match:yes
+[2026-04-16T09:53:57.815Z] [INFO ]     Friday 09:00  Genel Kürek  cap:8  match:yes
+[2026-04-16T09:53:57.815Z] [INFO ]   🎯  Picked: Friday 08:00 Genel Kürek (cap 10)
+[2026-04-16T09:53:57.815Z] [INFO ] ✅  Selected slot: 2026-04-17T08:00:00 → 2026-04-17T09:00:00 (Genel Kürek)
+[2026-04-16T09:53:57.815Z] [INFO ] 📝  Creating booking → 2026-04-17T08:00:00 (Genel Kürek)
+[2026-04-16T09:53:57.815Z] [INFO ]   → POST /_api/bookings-service/v2/bulk/bookings/create
+[2026-04-16T09:53:58.649Z] [ERROR] User Bülent Coşan failed: Booking failed: {"itemMetadata":{"originalIndex":0,"success":false,"error":{"code":"INVALID_ARGUMENT","description":"Validation failed: phone must match format \"phone\", phone Phone number has incorrect country code","data":{}}}}
+[2026-04-16T09:53:58.651Z] [INFO ]   Retrying in 8s...
+[2026-04-16T09:56:14.072Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T09:56:14.077Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T09:56:14.077Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T09:56:14.077Z] [INFO ] Trigger: manual (--once)
+[2026-04-16T09:56:14.077Z] [INFO ] 🔄  Attempt 1/3
+[2026-04-16T09:56:14.077Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T09:56:14.078Z] [INFO ] 🔑  Token missing/expired for Bülent Coşan — authenticating...
+[2026-04-16T09:56:14.078Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T09:56:14.539Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T09:56:14.539Z] [INFO ]   [2/4] Logging in as buletncosan@mail.com...
+[2026-04-16T09:56:15.646Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T09:56:15.647Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T09:56:16.158Z] [INFO ]   Session cookie created.
+[2026-04-16T09:56:16.159Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T09:56:16.487Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T13:56:16.436Z
+[2026-04-16T09:56:16.487Z] [INFO ] 👤  Fetching member profile: 5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T09:56:16.488Z] [INFO ]   → GET /_api/members/v1/members/5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T09:56:16.952Z] [INFO ] 📅  Querying slots: 2026-04-16T12:56:16 → 2026-04-23T23:59:59
+[2026-04-16T09:56:16.952Z] [INFO ]   User: Bülent Coşan
+[2026-04-16T09:56:16.952Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T09:56:16.952Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T09:56:16.952Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T09:56:17.490Z] [INFO ]     Total slots in window: 31
+[2026-04-16T09:56:17.490Z] [INFO ]     Bookable now:          6
+[2026-04-16T09:56:17.490Z] [INFO ]     Upcoming (too early):  20
+[2026-04-16T09:56:17.490Z] [INFO ]       • 2026-04-18T13:00:00  (opens 2026-04-16T10:00:00Z)
+[2026-04-16T09:56:17.491Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T09:56:17.491Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T09:56:17.491Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T09:56:17.491Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T09:56:18.002Z] [INFO ]     Total slots in window: 14
+[2026-04-16T09:56:18.002Z] [INFO ]     Bookable now:          2
+[2026-04-16T09:56:18.002Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T09:56:18.002Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T09:56:18.002Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T09:56:18.002Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T09:56:18.002Z] [INFO ]   Total bookable across services: 8
+[2026-04-16T09:56:18.002Z] [INFO ]     Thursday 17:30  Antrenman Kürek  cap:1  match:no
+[2026-04-16T09:56:18.002Z] [INFO ]     Friday 18:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T09:56:18.002Z] [INFO ]     Friday 19:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T09:56:18.002Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:1  match:yes
+[2026-04-16T09:56:18.002Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T09:56:18.003Z] [INFO ]     Saturday 12:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T09:56:18.003Z] [INFO ]     Friday 08:00  Genel Kürek  cap:10  match:yes
+[2026-04-16T09:56:18.003Z] [INFO ]     Friday 09:00  Genel Kürek  cap:8  match:yes
+[2026-04-16T09:56:18.003Z] [INFO ]   🎯  Picked: Friday 08:00 Genel Kürek (cap 10)
+[2026-04-16T09:56:18.003Z] [INFO ] ✅  Selected slot: 2026-04-17T08:00:00 → 2026-04-17T09:00:00 (Genel Kürek)
+[2026-04-16T09:56:18.003Z] [INFO ] 📝  Creating booking → 2026-04-17T08:00:00 (Genel Kürek)
+[2026-04-16T09:56:18.003Z] [INFO ]   → POST /_api/bookings-service/v2/bulk/bookings/create
+[2026-04-16T09:56:19.129Z] [INFO ]   ✅  bookingId: cea2ab0d-deb8-4eed-a840-a59e7ad40b29
+[2026-04-16T09:56:19.129Z] [INFO ] 🛒  Creating checkout → bookingId: cea2ab0d-deb8-4eed-a840-a59e7ad40b29
+[2026-04-16T09:56:19.129Z] [INFO ]   → POST /ecom/v1/checkouts
+[2026-04-16T09:56:20.327Z] [INFO ]   ✅  checkoutId: ca727402-f501-4815-9b9d-fc0c21c8ac32
+[2026-04-16T09:56:20.327Z] [INFO ] 📦  Creating order → checkoutId: ca727402-f501-4815-9b9d-fc0c21c8ac32
+[2026-04-16T09:56:20.327Z] [INFO ]   → POST /ecom/v1/checkouts/ca727402-f501-4815-9b9d-fc0c21c8ac32/create-order
+[2026-04-16T09:56:21.318Z] [ERROR] User Bülent Coşan failed: HTTP 428 on /ecom/v1/checkouts/ca727402-f501-4815-9b9d-fc0c21c8ac32/create-order: {"message":"Calculation error","details":{"applicationError":{"code":"CALCULATION_ERROR","description":"Calculation error","data":{"orderValidationErrors":[],"membershipError":{"applicationError":{"code":"INVALID_MEMBERSHIP_SELECTION","description":"Provided membership selection is invalid","data":{"membershipInvalidSelectionErrors":[{"membershipId":"c1b2fd59-f8e0-48f0-abca-bacfdb5e2cd2/80aa1dad-cb42-43d1-9389-e7eca5d3e4ee","errorType":"MEMBERSHIP_NOT_FOUND"}]}},"tracing":{}}}}}}
+[2026-04-16T09:56:21.318Z] [INFO ]   Retrying in 8s...
+[2026-04-16T09:56:29.319Z] [INFO ] 🔄  Attempt 2/3
+[2026-04-16T09:56:29.319Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T09:56:29.319Z] [INFO ] 👤  Fetching member profile: 5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T09:56:29.320Z] [INFO ]   → GET /_api/members/v1/members/5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T09:56:29.983Z] [INFO ] 📅  Querying slots: 2026-04-16T12:56:29 → 2026-04-23T23:59:59
+[2026-04-16T09:56:29.983Z] [INFO ]   User: Bülent Coşan
+[2026-04-16T09:56:29.983Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T09:56:29.983Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T09:56:29.983Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T09:56:30.596Z] [INFO ]     Total slots in window: 31
+[2026-04-16T09:56:30.596Z] [INFO ]     Bookable now:          6
+[2026-04-16T09:56:30.596Z] [INFO ]     Upcoming (too early):  20
+[2026-04-16T09:56:30.596Z] [INFO ]       • 2026-04-18T13:00:00  (opens 2026-04-16T10:00:00Z)
+[2026-04-16T09:56:30.596Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T09:56:30.596Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T09:56:30.597Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T09:56:30.597Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T09:56:31.109Z] [INFO ]     Total slots in window: 14
+[2026-04-16T09:56:31.109Z] [INFO ]     Bookable now:          2
+[2026-04-16T09:56:31.109Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T09:56:31.109Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T09:56:31.109Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T09:56:31.109Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T09:56:31.109Z] [INFO ]   Total bookable across services: 8
+[2026-04-16T09:56:31.110Z] [INFO ]     Thursday 17:30  Antrenman Kürek  cap:1  match:no
+[2026-04-16T09:56:31.110Z] [INFO ]     Friday 18:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T09:56:31.110Z] [INFO ]     Friday 19:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T09:56:31.110Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:1  match:yes
+[2026-04-16T09:56:31.110Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T09:56:31.110Z] [INFO ]     Saturday 12:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T09:56:31.110Z] [INFO ]     Friday 08:00  Genel Kürek  cap:10  match:yes
+[2026-04-16T09:56:31.110Z] [INFO ]     Friday 09:00  Genel Kürek  cap:8  match:yes
+[2026-04-16T09:56:31.110Z] [INFO ]   🎯  Picked: Friday 08:00 Genel Kürek (cap 10)
+[2026-04-16T09:56:31.110Z] [INFO ] ✅  Selected slot: 2026-04-17T08:00:00 → 2026-04-17T09:00:00 (Genel Kürek)
+[2026-04-16T09:56:31.110Z] [INFO ] 📝  Creating booking → 2026-04-17T08:00:00 (Genel Kürek)
+[2026-04-16T09:56:31.110Z] [INFO ]   → POST /_api/bookings-service/v2/bulk/bookings/create
+[2026-04-16T09:56:32.075Z] [INFO ]   ✅  bookingId: 078eb9cd-2611-4198-9dab-2603bacb3195
+[2026-04-16T09:56:32.076Z] [INFO ] 🛒  Creating checkout → bookingId: 078eb9cd-2611-4198-9dab-2603bacb3195
+[2026-04-16T09:56:32.076Z] [INFO ]   → POST /ecom/v1/checkouts
+[2026-04-16T09:56:33.259Z] [INFO ]   ✅  checkoutId: ca727402-8608-447d-88af-535e2af0e7c0
+[2026-04-16T09:56:33.260Z] [INFO ] 📦  Creating order → checkoutId: ca727402-8608-447d-88af-535e2af0e7c0
+[2026-04-16T09:56:33.260Z] [INFO ]   → POST /ecom/v1/checkouts/ca727402-8608-447d-88af-535e2af0e7c0/create-order
+[2026-04-16T10:01:53.306Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T10:01:53.312Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T10:01:53.312Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T10:01:53.313Z] [INFO ] Trigger: manual (--once)
+[2026-04-16T10:01:53.313Z] [INFO ] 🔄  Attempt 1/3
+[2026-04-16T10:01:53.313Z] [INFO ] 👤  Booking user: Hazal Düzen
+[2026-04-16T10:01:53.313Z] [INFO ] 🔑  Token missing/expired for Hazal Düzen — authenticating...
+[2026-04-16T10:01:53.313Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:01:53.818Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T10:01:53.818Z] [INFO ]   [2/4] Logging in as hazalduzen@gmail.com...
+[2026-04-16T10:01:54.801Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T10:01:54.801Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T10:01:55.313Z] [INFO ]   Session cookie created.
+[2026-04-16T10:01:55.313Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T10:01:55.644Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T14:01:55.578Z
+[2026-04-16T10:01:55.644Z] [INFO ] 👤  Fetching member profile: e3510c2a-f218-4a3e-9f79-cdc29cfdf3cb
+[2026-04-16T10:01:55.645Z] [INFO ]   → GET /_api/members/v1/members/e3510c2a-f218-4a3e-9f79-cdc29cfdf3cb
+[2026-04-16T10:01:56.032Z] [INFO ] 📅  Querying slots: 2026-04-16T13:01:56 → 2026-04-23T23:59:59
+[2026-04-16T10:01:56.032Z] [INFO ]   User: Hazal Düzen
+[2026-04-16T10:01:56.032Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T10:01:56.033Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T10:01:56.033Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:01:56.542Z] [INFO ]     Total slots in window: 31
+[2026-04-16T10:01:56.542Z] [INFO ]     Bookable now:          7
+[2026-04-16T10:01:56.543Z] [INFO ]     Upcoming (too early):  19
+[2026-04-16T10:01:56.543Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T10:01:56.543Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T10:01:56.543Z] [INFO ]       • 2026-04-19T07:00:00  (opens 2026-04-17T04:00:00Z)
+[2026-04-16T10:01:56.543Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T10:01:56.543Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:01:57.053Z] [INFO ]     Total slots in window: 14
+[2026-04-16T10:01:57.053Z] [INFO ]     Bookable now:          2
+[2026-04-16T10:01:57.053Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T10:01:57.053Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T10:01:57.053Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T10:01:57.053Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T10:01:57.054Z] [INFO ]   Total bookable across services: 9
+[2026-04-16T10:01:57.054Z] [INFO ]     Thursday 17:30  Antrenman Kürek  cap:1  match:no
+[2026-04-16T10:01:57.054Z] [INFO ]     Friday 18:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:01:57.054Z] [INFO ]     Friday 19:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:01:57.054Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:1  match:yes
+[2026-04-16T10:01:57.054Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T10:01:57.054Z] [INFO ]     Saturday 12:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:01:57.054Z] [INFO ]     Saturday 13:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:01:57.054Z] [INFO ]     Friday 08:00  Genel Kürek  cap:10  match:yes
+[2026-04-16T10:01:57.054Z] [INFO ]     Friday 09:00  Genel Kürek  cap:8  match:yes
+[2026-04-16T10:01:57.054Z] [INFO ]   🎯  Picked: Friday 08:00 Genel Kürek (cap 10)
+[2026-04-16T10:01:57.054Z] [INFO ] ✅  Selected slot: 2026-04-17T08:00:00 → 2026-04-17T09:00:00 (Genel Kürek)
+[2026-04-16T10:01:57.054Z] [INFO ] 📝  Creating booking → 2026-04-17T08:00:00 (Genel Kürek)
+[2026-04-16T10:01:57.054Z] [INFO ]   → POST /_api/bookings-service/v2/bulk/bookings/create
+[2026-04-16T10:01:58.281Z] [INFO ]   ✅  bookingId: e21a2e46-7631-42a8-9474-d2bd747fc899
+[2026-04-16T10:01:58.282Z] [INFO ] 🛒  Creating checkout → bookingId: e21a2e46-7631-42a8-9474-d2bd747fc899
+[2026-04-16T10:01:58.282Z] [INFO ] 🎟️  Fetching eligible memberships for Genel Kürek
+[2026-04-16T10:01:58.282Z] [INFO ]   → POST /memberships-spi-host/v1/list-eligible-memberships
+[2026-04-16T10:01:58.896Z] [INFO ]   ✅  membershipId: c1b2fd59-f8e0-48f0-abca-bacfdb5e2cd2/80aa1dad-cb42-43d1-9389-e7eca5d3e4ee
+[2026-04-16T10:01:58.896Z] [INFO ]   → POST /ecom/v1/checkouts
+[2026-04-16T10:02:00.328Z] [INFO ]   ✅  checkoutId: ca727402-84d9-42ac-a39a-09b725b4f686
+[2026-04-16T10:02:00.328Z] [INFO ] 📦  Creating order → checkoutId: ca727402-84d9-42ac-a39a-09b725b4f686
+[2026-04-16T10:02:00.328Z] [INFO ]   → POST /ecom/v1/checkouts/ca727402-84d9-42ac-a39a-09b725b4f686/create-order
+[2026-04-16T10:02:01.967Z] [INFO ]   🎉  orderId: 6b96117d-7e64-40e1-9e8b-9f88dd97f0b6
+[2026-04-16T10:02:01.967Z] [INFO ] 
+[2026-04-16T10:02:01.967Z] [INFO ] ╔══════════════════════════════════════════╗
+[2026-04-16T10:02:01.968Z] [INFO ] ║  🎉  RESERVATION CONFIRMED!              ║
+[2026-04-16T10:02:01.968Z] [INFO ] ║  User:      Hazal Düzen                  ║
+[2026-04-16T10:02:01.968Z] [INFO ] ║  Slot:      2026-04-17T08:00             ║
+[2026-04-16T10:02:01.968Z] [INFO ] ║  Service:   Genel Kürek                  ║
+[2026-04-16T10:02:01.968Z] [INFO ] ║  Booking:   e21a2e46-7631-42a8-9474-d2bd7║
+[2026-04-16T10:02:01.970Z] [INFO ] ║  Order:     6b96117d-7e64-40e1-9e8b-9f88d║
+[2026-04-16T10:02:01.970Z] [INFO ] ╚══════════════════════════════════════════╝
+[2026-04-16T10:02:01.970Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T10:02:01.970Z] [INFO ] 🔑  Token missing/expired for Bülent Coşan — authenticating...
+[2026-04-16T10:02:01.970Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:02:02.195Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T10:02:02.196Z] [INFO ]   [2/4] Logging in as buletncosan@mail.com...
+[2026-04-16T10:02:03.196Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T10:02:03.196Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T10:02:03.709Z] [INFO ]   Session cookie created.
+[2026-04-16T10:02:03.709Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T10:02:03.880Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T14:02:03.885Z
+[2026-04-16T10:02:03.880Z] [INFO ] 👤  Fetching member profile: 5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T10:02:03.880Z] [INFO ]   → GET /_api/members/v1/members/5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T10:02:04.355Z] [INFO ] 📅  Querying slots: 2026-04-16T13:02:04 → 2026-04-23T23:59:59
+[2026-04-16T10:02:04.356Z] [INFO ]   User: Bülent Coşan
+[2026-04-16T10:02:04.356Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T10:02:04.356Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T10:02:04.356Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:02:04.848Z] [INFO ]     Total slots in window: 31
+[2026-04-16T10:02:04.848Z] [INFO ]     Bookable now:          7
+[2026-04-16T10:02:04.848Z] [INFO ]     Upcoming (too early):  19
+[2026-04-16T10:02:04.848Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T10:02:04.848Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T10:02:04.848Z] [INFO ]       • 2026-04-19T07:00:00  (opens 2026-04-17T04:00:00Z)
+[2026-04-16T10:02:04.848Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T10:02:04.848Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:02:05.319Z] [INFO ]     Total slots in window: 14
+[2026-04-16T10:02:05.319Z] [INFO ]     Bookable now:          2
+[2026-04-16T10:02:05.320Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T10:02:05.320Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T10:02:05.321Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T10:02:05.321Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T10:02:05.321Z] [INFO ]   Total bookable across services: 9
+[2026-04-16T10:02:05.321Z] [INFO ]     Thursday 17:30  Antrenman Kürek  cap:1  match:no
+[2026-04-16T10:02:05.321Z] [INFO ]     Friday 18:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:02:05.321Z] [INFO ]     Friday 19:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:02:05.321Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:1  match:yes
+[2026-04-16T10:02:05.321Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T10:02:05.321Z] [INFO ]     Saturday 12:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:02:05.321Z] [INFO ]     Saturday 13:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:02:05.321Z] [INFO ]     Friday 08:00  Genel Kürek  cap:10  match:yes
+[2026-04-16T10:02:05.321Z] [INFO ]     Friday 09:00  Genel Kürek  cap:8  match:yes
+[2026-04-16T10:02:05.324Z] [INFO ]   🎯  Picked: Friday 08:00 Genel Kürek (cap 10)
+[2026-04-16T10:02:05.324Z] [INFO ] ✅  Selected slot: 2026-04-17T08:00:00 → 2026-04-17T09:00:00 (Genel Kürek)
+[2026-04-16T10:02:05.324Z] [INFO ] 📝  Creating booking → 2026-04-17T08:00:00 (Genel Kürek)
+[2026-04-16T10:02:05.324Z] [INFO ]   → POST /_api/bookings-service/v2/bulk/bookings/create
+[2026-04-16T10:02:06.370Z] [INFO ]   ✅  bookingId: 6d9e9547-8ae8-4932-8bdd-7ff4895b7036
+[2026-04-16T10:02:06.371Z] [INFO ] 🛒  Creating checkout → bookingId: 6d9e9547-8ae8-4932-8bdd-7ff4895b7036
+[2026-04-16T10:02:06.371Z] [INFO ] 🎟️  Fetching eligible memberships for Genel Kürek
+[2026-04-16T10:02:06.371Z] [INFO ]   → POST /memberships-spi-host/v1/list-eligible-memberships
+[2026-04-16T10:02:06.769Z] [ERROR] User Bülent Coşan failed: No eligible membership found for Bülent Coşan and Genel Kürek
+[2026-04-16T10:02:06.769Z] [INFO ]   Retrying in 8s...
+[2026-04-16T10:02:14.770Z] [INFO ] 🔄  Attempt 2/3
+[2026-04-16T10:02:14.770Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T10:02:14.770Z] [INFO ] 👤  Fetching member profile: 5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T10:02:14.771Z] [INFO ]   → GET /_api/members/v1/members/5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T10:02:15.294Z] [INFO ] 📅  Querying slots: 2026-04-16T13:02:15 → 2026-04-23T23:59:59
+[2026-04-16T10:02:15.296Z] [INFO ]   User: Bülent Coşan
+[2026-04-16T10:02:15.297Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T10:02:15.297Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T10:02:15.297Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:02:15.895Z] [INFO ]     Total slots in window: 31
+[2026-04-16T10:02:15.895Z] [INFO ]     Bookable now:          7
+[2026-04-16T10:02:15.895Z] [INFO ]     Upcoming (too early):  19
+[2026-04-16T10:02:15.895Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T10:02:15.895Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T10:02:15.895Z] [INFO ]       • 2026-04-19T07:00:00  (opens 2026-04-17T04:00:00Z)
+[2026-04-16T10:02:15.895Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T10:02:15.895Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:02:16.405Z] [INFO ]     Total slots in window: 14
+[2026-04-16T10:02:16.405Z] [INFO ]     Bookable now:          2
+[2026-04-16T10:02:16.405Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T10:02:16.405Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T10:02:16.405Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T10:02:16.405Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T10:02:16.405Z] [INFO ]   Total bookable across services: 9
+[2026-04-16T10:02:16.405Z] [INFO ]     Thursday 17:30  Antrenman Kürek  cap:1  match:no
+[2026-04-16T10:02:16.405Z] [INFO ]     Friday 18:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:02:16.405Z] [INFO ]     Friday 19:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:02:16.405Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:1  match:yes
+[2026-04-16T10:02:16.405Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T10:02:16.405Z] [INFO ]     Saturday 12:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:02:16.405Z] [INFO ]     Saturday 13:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:02:16.405Z] [INFO ]     Friday 08:00  Genel Kürek  cap:9  match:yes
+[2026-04-16T10:02:16.405Z] [INFO ]     Friday 09:00  Genel Kürek  cap:8  match:yes
+[2026-04-16T10:02:16.405Z] [INFO ]   🎯  Picked: Friday 08:00 Genel Kürek (cap 9)
+[2026-04-16T10:02:16.405Z] [INFO ] ✅  Selected slot: 2026-04-17T08:00:00 → 2026-04-17T09:00:00 (Genel Kürek)
+[2026-04-16T10:02:16.405Z] [INFO ] 📝  Creating booking → 2026-04-17T08:00:00 (Genel Kürek)
+[2026-04-16T10:02:16.405Z] [INFO ]   → POST /_api/bookings-service/v2/bulk/bookings/create
+[2026-04-16T10:02:17.416Z] [INFO ]   ✅  bookingId: aa26f835-5f1b-4df4-b980-7275654070d6
+[2026-04-16T10:02:17.416Z] [INFO ] 🛒  Creating checkout → bookingId: aa26f835-5f1b-4df4-b980-7275654070d6
+[2026-04-16T10:02:17.416Z] [INFO ] 🎟️  Fetching eligible memberships for Genel Kürek
+[2026-04-16T10:02:17.416Z] [INFO ]   → POST /memberships-spi-host/v1/list-eligible-memberships
+[2026-04-16T10:02:17.840Z] [ERROR] User Bülent Coşan failed: No eligible membership found for Bülent Coşan and Genel Kürek
+[2026-04-16T10:02:17.840Z] [INFO ]   Retrying in 8s...
+[2026-04-16T10:02:25.842Z] [INFO ] 🔄  Attempt 3/3
+[2026-04-16T10:02:25.842Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T10:02:25.842Z] [INFO ] 👤  Fetching member profile: 5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T10:02:25.842Z] [INFO ]   → GET /_api/members/v1/members/5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T10:02:26.339Z] [INFO ] 📅  Querying slots: 2026-04-16T13:02:26 → 2026-04-23T23:59:59
+[2026-04-16T10:02:26.339Z] [INFO ]   User: Bülent Coşan
+[2026-04-16T10:02:26.339Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T10:02:26.339Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T10:02:26.339Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:02:26.955Z] [INFO ]     Total slots in window: 31
+[2026-04-16T10:02:26.955Z] [INFO ]     Bookable now:          7
+[2026-04-16T10:02:26.955Z] [INFO ]     Upcoming (too early):  19
+[2026-04-16T10:02:26.955Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T10:02:26.955Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T10:02:26.955Z] [INFO ]       • 2026-04-19T07:00:00  (opens 2026-04-17T04:00:00Z)
+[2026-04-16T10:02:26.955Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T10:02:26.956Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:03:37.614Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T10:03:37.617Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T10:03:37.618Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T10:03:37.618Z] [INFO ] Trigger: slot_available
+[2026-04-16T10:03:37.618Z] [INFO ] ⏱️  Polling every 5 min until a slot is booked...
+[2026-04-16T10:03:37.618Z] [INFO ] ─── Poll cycle ──────────────────────────
+[2026-04-16T10:03:37.618Z] [INFO ] 🔄  Attempt 1/3
+[2026-04-16T10:03:37.618Z] [INFO ] 👤  Booking user: Hazal Düzen
+[2026-04-16T10:03:37.618Z] [INFO ] 🔑  Token missing/expired for Hazal Düzen — authenticating...
+[2026-04-16T10:03:37.619Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:03:37.666Z] [ERROR] User Hazal Düzen failed: fetch failed
+[2026-04-16T10:03:37.666Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T10:03:37.666Z] [INFO ] 🔑  Token missing/expired for Bülent Coşan — authenticating...
+[2026-04-16T10:03:37.666Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:03:37.668Z] [ERROR] User Bülent Coşan failed: fetch failed
+[2026-04-16T10:03:37.668Z] [INFO ]   Retrying in 8s...
+[2026-04-16T10:03:45.669Z] [INFO ] 🔄  Attempt 2/3
+[2026-04-16T10:03:45.670Z] [INFO ] 👤  Booking user: Hazal Düzen
+[2026-04-16T10:03:45.670Z] [INFO ] 🔑  Token missing/expired for Hazal Düzen — authenticating...
+[2026-04-16T10:03:45.670Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:03:45.671Z] [ERROR] User Hazal Düzen failed: fetch failed
+[2026-04-16T10:03:45.672Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T10:03:45.672Z] [INFO ] 🔑  Token missing/expired for Bülent Coşan — authenticating...
+[2026-04-16T10:03:45.672Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:03:45.673Z] [ERROR] User Bülent Coşan failed: fetch failed
+[2026-04-16T10:03:45.673Z] [INFO ]   Retrying in 8s...
+[2026-04-16T10:03:53.674Z] [INFO ] 🔄  Attempt 3/3
+[2026-04-16T10:03:53.675Z] [INFO ] 👤  Booking user: Hazal Düzen
+[2026-04-16T10:03:53.675Z] [INFO ] 🔑  Token missing/expired for Hazal Düzen — authenticating...
+[2026-04-16T10:03:53.675Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:03:53.677Z] [ERROR] User Hazal Düzen failed: fetch failed
+[2026-04-16T10:03:53.677Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T10:03:53.677Z] [INFO ] 🔑  Token missing/expired for Bülent Coşan — authenticating...
+[2026-04-16T10:03:53.677Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:03:53.678Z] [ERROR] User Bülent Coşan failed: fetch failed
+[2026-04-16T10:03:53.678Z] [ERROR] All attempts exhausted.
+[2026-04-16T10:03:53.678Z] [INFO ] ⏳  Waiting 5 min before next check...
+[2026-04-16T10:04:50.923Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T10:04:50.929Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T10:04:50.929Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T10:04:50.929Z] [INFO ] Trigger: manual (--once)
+[2026-04-16T10:04:50.929Z] [INFO ] 🔄  Attempt 1/3
+[2026-04-16T10:04:50.929Z] [INFO ] 👤  Booking user: Hazal Düzen
+[2026-04-16T10:04:50.929Z] [INFO ] 🔑  Token missing/expired for Hazal Düzen — authenticating...
+[2026-04-16T10:04:50.930Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:04:51.373Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T10:04:51.374Z] [INFO ]   [2/4] Logging in as hazalduzen@gmail.com...
+[2026-04-16T10:04:52.365Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T10:04:52.365Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T10:04:52.876Z] [INFO ]   Session cookie created.
+[2026-04-16T10:04:52.876Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T10:04:53.608Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T14:04:53.120Z
+[2026-04-16T10:04:53.608Z] [INFO ] 👤  Fetching member profile: e3510c2a-f218-4a3e-9f79-cdc29cfdf3cb
+[2026-04-16T10:04:53.608Z] [INFO ]   → GET /_api/members/v1/members/e3510c2a-f218-4a3e-9f79-cdc29cfdf3cb
+[2026-04-16T10:04:54.003Z] [INFO ] 📅  Querying slots: 2026-04-16T13:04:54 → 2026-04-23T23:59:59
+[2026-04-16T10:04:54.003Z] [INFO ]   User: Hazal Düzen
+[2026-04-16T10:04:54.003Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T10:04:54.003Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T10:04:54.004Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:04:54.617Z] [INFO ]     Total slots in window: 31
+[2026-04-16T10:04:54.617Z] [INFO ]     Bookable now:          7
+[2026-04-16T10:04:54.617Z] [INFO ]     Upcoming (too early):  19
+[2026-04-16T10:04:54.617Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T10:04:54.617Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T10:04:54.617Z] [INFO ]       • 2026-04-19T07:00:00  (opens 2026-04-17T04:00:00Z)
+[2026-04-16T10:04:54.617Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T10:04:54.618Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:04:55.075Z] [INFO ]     Total slots in window: 14
+[2026-04-16T10:04:55.075Z] [INFO ]     Bookable now:          2
+[2026-04-16T10:04:55.075Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T10:04:55.075Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T10:04:55.075Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T10:04:55.075Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T10:04:55.075Z] [INFO ]   Total bookable across services: 9
+[2026-04-16T10:04:55.075Z] [INFO ]     Thursday 17:30  Antrenman Kürek  cap:1  match:no
+[2026-04-16T10:04:55.075Z] [INFO ]     Friday 18:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:04:55.075Z] [INFO ]     Friday 19:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:04:55.075Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:1  match:yes
+[2026-04-16T10:04:55.076Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T10:04:55.076Z] [INFO ]     Saturday 12:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:04:55.076Z] [INFO ]     Saturday 13:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:04:55.076Z] [INFO ]     Friday 08:00  Genel Kürek  cap:9  match:yes
+[2026-04-16T10:04:55.076Z] [INFO ]     Friday 09:00  Genel Kürek  cap:8  match:yes
+[2026-04-16T10:04:55.076Z] [INFO ]   🎯  Picked: Friday 08:00 Genel Kürek (cap 9)
+[2026-04-16T10:04:55.076Z] [INFO ] ✅  Selected slot: 2026-04-17T08:00:00 → 2026-04-17T09:00:00 (Genel Kürek)
+[2026-04-16T10:04:55.076Z] [INFO ] 📝  Creating booking → 2026-04-17T08:00:00 (Genel Kürek)
+[2026-04-16T10:04:55.076Z] [INFO ]   → POST /_api/bookings-service/v2/bulk/bookings/create
+[2026-04-16T10:04:56.187Z] [INFO ]   ✅  bookingId: 6664b1fb-7771-4fa0-bb0e-039834fed6d7
+[2026-04-16T10:04:56.187Z] [INFO ] 🛒  Creating checkout → bookingId: 6664b1fb-7771-4fa0-bb0e-039834fed6d7
+[2026-04-16T10:04:56.187Z] [INFO ] 🎟️  Fetching eligible memberships for Genel Kürek
+[2026-04-16T10:04:56.188Z] [INFO ]   → POST /memberships-spi-host/v1/list-eligible-memberships
+[2026-04-16T10:04:56.870Z] [INFO ]   ✅  membershipId: c1b2fd59-f8e0-48f0-abca-bacfdb5e2cd2/80aa1dad-cb42-43d1-9389-e7eca5d3e4ee
+[2026-04-16T10:04:56.870Z] [INFO ]   → POST /ecom/v1/checkouts
+[2026-04-16T10:04:58.202Z] [INFO ]   ✅  checkoutId: ca727402-54f2-4cbd-8f35-1af37c1addd9
+[2026-04-16T10:04:58.202Z] [INFO ] 📦  Creating order → checkoutId: ca727402-54f2-4cbd-8f35-1af37c1addd9
+[2026-04-16T10:04:58.203Z] [INFO ]   → POST /ecom/v1/checkouts/ca727402-54f2-4cbd-8f35-1af37c1addd9/create-order
+[2026-04-16T10:04:59.737Z] [INFO ]   🎉  orderId: 6cb217ff-1acf-476a-99d6-165e3f2ee079
+[2026-04-16T10:04:59.737Z] [INFO ] 
+[2026-04-16T10:04:59.737Z] [INFO ] ╔══════════════════════════════════════════╗
+[2026-04-16T10:04:59.737Z] [INFO ] ║  🎉  RESERVATION CONFIRMED!              ║
+[2026-04-16T10:04:59.737Z] [INFO ] ║  User:      Hazal Düzen                  ║
+[2026-04-16T10:04:59.737Z] [INFO ] ║  Slot:      2026-04-17T08:00             ║
+[2026-04-16T10:04:59.737Z] [INFO ] ║  Service:   Genel Kürek                  ║
+[2026-04-16T10:04:59.738Z] [INFO ] ║  Booking:   6664b1fb-7771-4fa0-bb0e-03983║
+[2026-04-16T10:04:59.738Z] [INFO ] ║  Order:     6cb217ff-1acf-476a-99d6-165e3║
+[2026-04-16T10:04:59.738Z] [INFO ] ╚══════════════════════════════════════════╝
+[2026-04-16T10:04:59.738Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T10:04:59.738Z] [INFO ] 🔑  Token missing/expired for Bülent Coşan — authenticating...
+[2026-04-16T10:04:59.738Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:04:59.962Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T10:04:59.962Z] [INFO ]   [2/4] Logging in as buletncosan@mail.com...
+[2026-04-16T10:05:00.959Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T10:05:00.959Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T10:05:01.399Z] [INFO ]   Session cookie created.
+[2026-04-16T10:05:01.399Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T10:05:01.593Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T14:05:01.565Z
+[2026-04-16T10:05:01.593Z] [INFO ] 👤  Fetching member profile: 5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T10:05:01.593Z] [INFO ]   → GET /_api/members/v1/members/5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T10:05:01.991Z] [INFO ] 📅  Querying slots: 2026-04-16T13:05:01 → 2026-04-23T23:59:59
+[2026-04-16T10:05:01.991Z] [INFO ]   User: Bülent Coşan
+[2026-04-16T10:05:01.992Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T10:05:01.992Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T10:05:01.992Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:05:02.502Z] [INFO ]     Total slots in window: 31
+[2026-04-16T10:05:02.502Z] [INFO ]     Bookable now:          7
+[2026-04-16T10:05:02.502Z] [INFO ]     Upcoming (too early):  19
+[2026-04-16T10:05:02.502Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T10:05:02.502Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T10:05:02.502Z] [INFO ]       • 2026-04-19T07:00:00  (opens 2026-04-17T04:00:00Z)
+[2026-04-16T10:05:02.502Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T10:05:02.502Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:05:03.219Z] [INFO ]     Total slots in window: 14
+[2026-04-16T10:05:03.219Z] [INFO ]     Bookable now:          2
+[2026-04-16T10:05:03.219Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T10:05:03.219Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T10:05:03.219Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T10:05:03.219Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T10:05:03.219Z] [INFO ]   Total bookable across services: 9
+[2026-04-16T10:05:03.219Z] [INFO ]     Thursday 17:30  Antrenman Kürek  cap:1  match:no
+[2026-04-16T10:05:03.219Z] [INFO ]     Friday 18:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:05:03.219Z] [INFO ]     Friday 19:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:05:03.220Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:1  match:yes
+[2026-04-16T10:05:03.220Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T10:05:03.220Z] [INFO ]     Saturday 12:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:05:03.220Z] [INFO ]     Saturday 13:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:05:03.220Z] [INFO ]     Friday 08:00  Genel Kürek  cap:9  match:yes
+[2026-04-16T10:05:03.220Z] [INFO ]     Friday 09:00  Genel Kürek  cap:8  match:yes
+[2026-04-16T10:05:03.220Z] [INFO ]   🎯  Picked: Friday 08:00 Genel Kürek (cap 9)
+[2026-04-16T10:05:03.220Z] [INFO ] ✅  Selected slot: 2026-04-17T08:00:00 → 2026-04-17T09:00:00 (Genel Kürek)
+[2026-04-16T10:05:03.220Z] [INFO ] 📝  Creating booking → 2026-04-17T08:00:00 (Genel Kürek)
+[2026-04-16T10:05:03.220Z] [INFO ]   → POST /_api/bookings-service/v2/bulk/bookings/create
+[2026-04-16T10:05:04.447Z] [INFO ]   ✅  bookingId: 1cfd2f23-6ef9-47e2-9bca-a317d12be3e6
+[2026-04-16T10:05:04.447Z] [INFO ] 🛒  Creating checkout → bookingId: 1cfd2f23-6ef9-47e2-9bca-a317d12be3e6
+[2026-04-16T10:05:04.447Z] [INFO ] 🎟️  Fetching eligible memberships for Genel Kürek
+[2026-04-16T10:05:04.447Z] [INFO ]   → POST /memberships-spi-host/v1/list-eligible-memberships
+[2026-04-16T10:05:04.858Z] [ERROR] User Bülent Coşan has no eligible membership: No eligible membership found for Bülent Coşan and Genel Kürek
+[2026-04-16T10:05:04.858Z] [ERROR] 1 user(s) have no eligible membership. Not retrying.
+[2026-04-16T10:12:58.603Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T10:12:58.608Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T10:12:58.608Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T10:12:58.609Z] [INFO ] Trigger: manual (--once)
+[2026-04-16T10:12:58.609Z] [INFO ] 🔄  Attempt 1/3
+[2026-04-16T10:12:58.609Z] [INFO ] 👤  Booking user: Hazal Düzen
+[2026-04-16T10:12:58.609Z] [INFO ] 🔑  Token missing/expired for Hazal Düzen — authenticating...
+[2026-04-16T10:12:58.609Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:12:59.197Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T10:12:59.197Z] [INFO ]   [2/4] Logging in as hazalduzen@gmail.com...
+[2026-04-16T10:13:00.166Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T10:13:00.167Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T10:13:00.717Z] [INFO ]   Session cookie created.
+[2026-04-16T10:13:00.717Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T10:13:01.035Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T14:13:00.986Z
+[2026-04-16T10:13:01.035Z] [INFO ] 👤  Fetching member profile: e3510c2a-f218-4a3e-9f79-cdc29cfdf3cb
+[2026-04-16T10:13:01.035Z] [INFO ]   → GET /_api/members/v1/members/e3510c2a-f218-4a3e-9f79-cdc29cfdf3cb
+[2026-04-16T10:13:01.433Z] [INFO ] 📅  Querying slots: 2026-04-16T13:13:01 → 2026-04-23T23:59:59
+[2026-04-16T10:13:01.434Z] [INFO ]   User: Hazal Düzen
+[2026-04-16T10:13:01.434Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T10:13:01.434Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T10:13:01.434Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:13:01.945Z] [INFO ]     Total slots in window: 31
+[2026-04-16T10:13:01.945Z] [INFO ]     Bookable now:          7
+[2026-04-16T10:13:01.946Z] [INFO ]     Upcoming (too early):  19
+[2026-04-16T10:13:01.946Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T10:13:01.946Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T10:13:01.946Z] [INFO ]       • 2026-04-19T07:00:00  (opens 2026-04-17T04:00:00Z)
+[2026-04-16T10:13:01.946Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T10:13:01.946Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:13:02.559Z] [INFO ]     Total slots in window: 14
+[2026-04-16T10:13:02.560Z] [INFO ]     Bookable now:          2
+[2026-04-16T10:13:02.560Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T10:13:02.560Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T10:13:02.560Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T10:13:02.560Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T10:13:02.560Z] [INFO ]   Total bookable across services: 9
+[2026-04-16T10:13:02.560Z] [INFO ] 📖  Querying active reservations for Hazal Düzen
+[2026-04-16T10:13:02.560Z] [INFO ]   → POST /_api/bookings-reader/v2/extended-bookings/query
+[2026-04-16T10:13:03.788Z] [INFO ]   Active reservations: 4
+[2026-04-16T10:13:03.789Z] [INFO ]   Reserved days: 2026-04-16, 2026-04-17
+[2026-04-16T10:13:03.789Z] [INFO ]   Skipped 5 slot(s) on days with existing reservations.
+[2026-04-16T10:13:03.789Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:1  match:yes
+[2026-04-16T10:13:03.789Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T10:13:03.789Z] [INFO ]     Saturday 12:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:13:03.789Z] [INFO ]     Saturday 13:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:13:03.789Z] [INFO ]   🎯  Picked: Saturday 10:00 Antrenman Kürek (cap 1)
+[2026-04-16T10:13:03.789Z] [INFO ] ✅  Selected slot: 2026-04-18T10:00:00 → 2026-04-18T11:00:00 (Antrenman Kürek)
+[2026-04-16T10:13:03.789Z] [INFO ] 📝  Creating booking → 2026-04-18T10:00:00 (Antrenman Kürek)
+[2026-04-16T10:13:03.789Z] [INFO ]   → POST /_api/bookings-service/v2/bulk/bookings/create
+[2026-04-16T10:13:04.916Z] [INFO ]   ✅  bookingId: 41ecff10-4323-4acc-a613-39d86d8786d1
+[2026-04-16T10:13:04.916Z] [INFO ] 🛒  Creating checkout → bookingId: 41ecff10-4323-4acc-a613-39d86d8786d1
+[2026-04-16T10:13:04.917Z] [INFO ] 🎟️  Fetching eligible memberships for Antrenman Kürek
+[2026-04-16T10:13:04.917Z] [INFO ]   → POST /memberships-spi-host/v1/list-eligible-memberships
+[2026-04-16T10:13:05.530Z] [INFO ]   ✅  membershipId: c1b2fd59-f8e0-48f0-abca-bacfdb5e2cd2/80aa1dad-cb42-43d1-9389-e7eca5d3e4ee
+[2026-04-16T10:13:05.531Z] [INFO ]   → POST /ecom/v1/checkouts
+[2026-04-16T10:13:06.862Z] [INFO ]   ✅  checkoutId: ca727402-94f2-4d67-839c-876785d2168f
+[2026-04-16T10:13:06.863Z] [INFO ] 📦  Creating order → checkoutId: ca727402-94f2-4d67-839c-876785d2168f
+[2026-04-16T10:13:06.863Z] [INFO ]   → POST /ecom/v1/checkouts/ca727402-94f2-4d67-839c-876785d2168f/create-order
+[2026-04-16T10:13:08.294Z] [INFO ]   🎉  orderId: 994e9713-9d62-4cbd-b9a4-3556fe3bc15e
+[2026-04-16T10:13:08.294Z] [INFO ] 
+[2026-04-16T10:13:08.294Z] [INFO ] ╔══════════════════════════════════════════╗
+[2026-04-16T10:13:08.294Z] [INFO ] ║  🎉  RESERVATION CONFIRMED!              ║
+[2026-04-16T10:13:08.294Z] [INFO ] ║  User:      Hazal Düzen                  ║
+[2026-04-16T10:13:08.294Z] [INFO ] ║  Slot:      2026-04-18T10:00             ║
+[2026-04-16T10:13:08.294Z] [INFO ] ║  Service:   Antrenman Kürek              ║
+[2026-04-16T10:13:08.294Z] [INFO ] ║  Booking:   41ecff10-4323-4acc-a613-39d86║
+[2026-04-16T10:13:08.294Z] [INFO ] ║  Order:     994e9713-9d62-4cbd-b9a4-3556f║
+[2026-04-16T10:13:08.294Z] [INFO ] ╚══════════════════════════════════════════╝
+[2026-04-16T10:13:08.294Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T10:13:08.294Z] [INFO ] 🔑  Token missing/expired for Bülent Coşan — authenticating...
+[2026-04-16T10:13:08.294Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:13:08.520Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T10:13:08.520Z] [INFO ]   [2/4] Logging in as buletncosan@mail.com...
+[2026-04-16T10:13:09.524Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T10:13:09.524Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T10:13:10.034Z] [INFO ]   Session cookie created.
+[2026-04-16T10:13:10.035Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T10:13:10.154Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T14:13:10.162Z
+[2026-04-16T10:13:10.155Z] [INFO ] 👤  Fetching member profile: 5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T10:13:10.156Z] [INFO ]   → GET /_api/members/v1/members/5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T10:13:10.546Z] [INFO ] 📅  Querying slots: 2026-04-16T13:13:10 → 2026-04-23T23:59:59
+[2026-04-16T10:13:10.547Z] [INFO ]   User: Bülent Coşan
+[2026-04-16T10:13:10.547Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T10:13:10.547Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T10:13:10.547Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:13:11.033Z] [INFO ]     Total slots in window: 31
+[2026-04-16T10:13:11.033Z] [INFO ]     Bookable now:          7
+[2026-04-16T10:13:11.033Z] [INFO ]     Upcoming (too early):  19
+[2026-04-16T10:13:11.034Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T10:13:11.034Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T10:13:11.034Z] [INFO ]       • 2026-04-19T07:00:00  (opens 2026-04-17T04:00:00Z)
+[2026-04-16T10:13:11.034Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T10:13:11.034Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:13:11.572Z] [INFO ]     Total slots in window: 14
+[2026-04-16T10:13:11.572Z] [INFO ]     Bookable now:          2
+[2026-04-16T10:13:11.572Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T10:13:11.572Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T10:13:11.572Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T10:13:11.572Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T10:13:11.572Z] [INFO ]   Total bookable across services: 9
+[2026-04-16T10:13:11.573Z] [INFO ] 📖  Querying active reservations for Bülent Coşan
+[2026-04-16T10:13:11.573Z] [INFO ]   → POST /_api/bookings-reader/v2/extended-bookings/query
+[2026-04-16T10:13:12.185Z] [INFO ]   Active reservations: 0
+[2026-04-16T10:13:12.185Z] [INFO ]     Thursday 17:30  Antrenman Kürek  cap:1  match:no
+[2026-04-16T10:13:12.185Z] [INFO ]     Friday 18:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:13:12.185Z] [INFO ]     Friday 19:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:13:12.185Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:1  match:yes
+[2026-04-16T10:13:12.185Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T10:13:12.185Z] [INFO ]     Saturday 12:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:13:12.185Z] [INFO ]     Saturday 13:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:13:12.185Z] [INFO ]     Friday 08:00  Genel Kürek  cap:10  match:yes
+[2026-04-16T10:13:12.185Z] [INFO ]     Friday 09:00  Genel Kürek  cap:8  match:yes
+[2026-04-16T10:13:12.186Z] [INFO ]   🎯  Picked: Friday 08:00 Genel Kürek (cap 10)
+[2026-04-16T10:13:12.186Z] [INFO ] ✅  Selected slot: 2026-04-17T08:00:00 → 2026-04-17T09:00:00 (Genel Kürek)
+[2026-04-16T10:13:12.186Z] [INFO ] 📝  Creating booking → 2026-04-17T08:00:00 (Genel Kürek)
+[2026-04-16T10:13:12.186Z] [INFO ]   → POST /_api/bookings-service/v2/bulk/bookings/create
+[2026-04-16T10:13:13.107Z] [INFO ]   ✅  bookingId: baece12a-4c38-4101-bad8-9b2970f5a0ed
+[2026-04-16T10:13:13.107Z] [INFO ] 🛒  Creating checkout → bookingId: baece12a-4c38-4101-bad8-9b2970f5a0ed
+[2026-04-16T10:13:13.107Z] [INFO ] 🎟️  Fetching eligible memberships for Genel Kürek
+[2026-04-16T10:13:13.107Z] [INFO ]   → POST /memberships-spi-host/v1/list-eligible-memberships
+[2026-04-16T10:13:13.477Z] [ERROR] User Bülent Coşan has no eligible membership: No eligible membership found for Bülent Coşan and Genel Kürek
+[2026-04-16T10:13:13.477Z] [ERROR] 1 user(s) have no eligible membership. Not retrying.
+[2026-04-16T10:14:14.023Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T10:14:14.029Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T10:14:14.029Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T10:14:14.029Z] [INFO ] Trigger: manual (--once)
+[2026-04-16T10:14:14.029Z] [INFO ] 🔄  Attempt 1/3
+[2026-04-16T10:14:14.030Z] [INFO ] 👤  Booking user: Hazal Düzen
+[2026-04-16T10:14:14.030Z] [INFO ] 🔑  Token missing/expired for Hazal Düzen — authenticating...
+[2026-04-16T10:14:14.030Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:14:14.481Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T10:14:14.481Z] [INFO ]   [2/4] Logging in as hazalduzen@gmail.com...
+[2026-04-16T10:14:15.674Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T10:14:15.674Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T10:14:16.186Z] [INFO ]   Session cookie created.
+[2026-04-16T10:14:16.187Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T10:14:17.183Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T14:14:16.440Z
+[2026-04-16T10:14:17.183Z] [INFO ] 👤  Fetching member profile: e3510c2a-f218-4a3e-9f79-cdc29cfdf3cb
+[2026-04-16T10:14:17.183Z] [INFO ]   → GET /_api/members/v1/members/e3510c2a-f218-4a3e-9f79-cdc29cfdf3cb
+[2026-04-16T10:14:17.522Z] [INFO ] 📅  Querying slots: 2026-04-16T13:14:17 → 2026-04-23T23:59:59
+[2026-04-16T10:14:17.522Z] [INFO ]   User: Hazal Düzen
+[2026-04-16T10:14:17.522Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T10:14:17.523Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T10:14:17.523Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:14:18.031Z] [INFO ]     Total slots in window: 31
+[2026-04-16T10:14:18.031Z] [INFO ]     Bookable now:          6
+[2026-04-16T10:14:18.031Z] [INFO ]     Upcoming (too early):  19
+[2026-04-16T10:14:18.031Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T10:14:18.031Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T10:14:18.031Z] [INFO ]       • 2026-04-19T07:00:00  (opens 2026-04-17T04:00:00Z)
+[2026-04-16T10:14:18.032Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T10:14:18.032Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:14:18.542Z] [INFO ]     Total slots in window: 14
+[2026-04-16T10:14:18.542Z] [INFO ]     Bookable now:          2
+[2026-04-16T10:14:18.542Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T10:14:18.542Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T10:14:18.542Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T10:14:18.542Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T10:14:18.542Z] [INFO ]   Total bookable across services: 8
+[2026-04-16T10:14:18.542Z] [INFO ] 📖  Querying active reservations for Hazal Düzen
+[2026-04-16T10:14:18.543Z] [INFO ]   → POST /_api/bookings-reader/v2/extended-bookings/query
+[2026-04-16T10:14:19.771Z] [INFO ]   Active reservations: 6
+[2026-04-16T10:14:19.771Z] [INFO ]   Reserved days: 2026-04-16, 2026-04-17, 2026-04-18
+[2026-04-16T10:14:19.771Z] [INFO ]   Skipped 8 slot(s) on days with existing reservations.
+[2026-04-16T10:14:19.771Z] [INFO ] ⏳  No matching slots right now for Hazal Düzen.
+[2026-04-16T10:14:19.771Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T10:14:19.771Z] [INFO ] 🔑  Token missing/expired for Bülent Coşan — authenticating...
+[2026-04-16T10:14:19.771Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:14:19.875Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T10:14:19.877Z] [INFO ]   [2/4] Logging in as buletncosan@mail.com...
+[2026-04-16T10:14:20.898Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T10:14:20.898Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T10:14:21.340Z] [INFO ]   Session cookie created.
+[2026-04-16T10:14:21.340Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T10:14:22.141Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T14:14:21.466Z
+[2026-04-16T10:14:22.141Z] [INFO ] 👤  Fetching member profile: 5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T10:14:22.141Z] [INFO ]   → GET /_api/members/v1/members/5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T10:14:22.536Z] [INFO ] 📅  Querying slots: 2026-04-16T13:14:22 → 2026-04-23T23:59:59
+[2026-04-16T10:14:22.536Z] [INFO ]   User: Bülent Coşan
+[2026-04-16T10:14:22.536Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T10:14:22.536Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T10:14:22.536Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:14:23.048Z] [INFO ]     Total slots in window: 31
+[2026-04-16T10:14:23.048Z] [INFO ]     Bookable now:          6
+[2026-04-16T10:14:23.048Z] [INFO ]     Upcoming (too early):  19
+[2026-04-16T10:14:23.048Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T10:14:23.048Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T10:14:23.048Z] [INFO ]       • 2026-04-19T07:00:00  (opens 2026-04-17T04:00:00Z)
+[2026-04-16T10:14:23.048Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T10:14:23.048Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:14:23.559Z] [INFO ]     Total slots in window: 14
+[2026-04-16T10:14:23.559Z] [INFO ]     Bookable now:          2
+[2026-04-16T10:14:23.559Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T10:14:23.559Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T10:14:23.559Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T10:14:23.559Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T10:14:23.559Z] [INFO ]   Total bookable across services: 8
+[2026-04-16T10:14:23.560Z] [INFO ] 📖  Querying active reservations for Bülent Coşan
+[2026-04-16T10:14:23.560Z] [INFO ]   → POST /_api/bookings-reader/v2/extended-bookings/query
+[2026-04-16T10:14:24.071Z] [INFO ]   Active reservations: 0
+[2026-04-16T10:14:24.071Z] [INFO ]     Thursday 17:30  Antrenman Kürek  cap:1  match:no
+[2026-04-16T10:14:24.071Z] [INFO ]     Friday 18:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:14:24.071Z] [INFO ]     Friday 19:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:14:24.072Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T10:14:24.072Z] [INFO ]     Saturday 12:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:14:24.072Z] [INFO ]     Saturday 13:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:14:24.072Z] [INFO ]     Friday 08:00  Genel Kürek  cap:10  match:yes
+[2026-04-16T10:14:24.072Z] [INFO ]     Friday 09:00  Genel Kürek  cap:8  match:yes
+[2026-04-16T10:14:24.072Z] [INFO ]   🎯  Picked: Friday 08:00 Genel Kürek (cap 10)
+[2026-04-16T10:14:24.072Z] [INFO ] ✅  Selected slot: 2026-04-17T08:00:00 → 2026-04-17T09:00:00 (Genel Kürek)
+[2026-04-16T10:14:24.072Z] [INFO ] 📝  Creating booking → 2026-04-17T08:00:00 (Genel Kürek)
+[2026-04-16T10:14:24.072Z] [INFO ]   → POST /_api/bookings-service/v2/bulk/bookings/create
+[2026-04-16T10:14:25.180Z] [INFO ]   ✅  bookingId: 8b8fb4c4-d422-47b9-99f1-39753779924d
+[2026-04-16T10:14:25.181Z] [INFO ] 🛒  Creating checkout → bookingId: 8b8fb4c4-d422-47b9-99f1-39753779924d
+[2026-04-16T10:14:25.181Z] [INFO ] 🎟️  Fetching eligible memberships for Genel Kürek
+[2026-04-16T10:14:25.181Z] [INFO ]   → POST /memberships-spi-host/v1/list-eligible-memberships
+[2026-04-16T10:14:25.607Z] [ERROR] User Bülent Coşan has no eligible membership: No eligible membership found for Bülent Coşan and Genel Kürek
+[2026-04-16T10:14:25.607Z] [ERROR] 1 user(s) have no eligible membership. Not retrying.
+[2026-04-16T10:17:04.609Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T10:17:04.615Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T10:17:04.615Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T10:17:04.616Z] [INFO ] Trigger: manual (--once)
+[2026-04-16T10:17:04.616Z] [INFO ] 🔄  Attempt 1/3
+[2026-04-16T10:17:04.616Z] [INFO ] 👤  Booking user: Hazal Düzen
+[2026-04-16T10:17:04.616Z] [INFO ] 🔑  Token missing/expired for Hazal Düzen — authenticating...
+[2026-04-16T10:17:04.616Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:17:05.073Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T10:17:05.073Z] [INFO ]   [2/4] Logging in as hazalduzen@gmail.com...
+[2026-04-16T10:17:06.072Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T10:17:06.072Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T10:17:06.582Z] [INFO ]   Session cookie created.
+[2026-04-16T10:17:06.583Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T10:17:06.880Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T14:17:06.827Z
+[2026-04-16T10:17:06.880Z] [INFO ] 👤  Fetching member profile: e3510c2a-f218-4a3e-9f79-cdc29cfdf3cb
+[2026-04-16T10:17:06.881Z] [INFO ]   → GET /_api/members/v1/members/e3510c2a-f218-4a3e-9f79-cdc29cfdf3cb
+[2026-04-16T10:17:07.335Z] [INFO ] 📅  Querying slots: 2026-04-16T13:17:07 → 2026-04-23T23:59:59
+[2026-04-16T10:17:07.335Z] [INFO ]   User: Hazal Düzen
+[2026-04-16T10:17:07.335Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T10:17:07.336Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T10:17:07.336Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:17:07.915Z] [INFO ]     Total slots in window: 31
+[2026-04-16T10:17:07.915Z] [INFO ]     Bookable now:          7
+[2026-04-16T10:17:07.915Z] [INFO ]     Upcoming (too early):  19
+[2026-04-16T10:17:07.915Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T10:17:07.915Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T10:17:07.915Z] [INFO ]       • 2026-04-19T07:00:00  (opens 2026-04-17T04:00:00Z)
+[2026-04-16T10:17:07.916Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T10:17:07.916Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:17:08.426Z] [INFO ]     Total slots in window: 14
+[2026-04-16T10:17:08.426Z] [INFO ]     Bookable now:          2
+[2026-04-16T10:17:08.426Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T10:17:08.426Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T10:17:08.426Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T10:17:08.426Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T10:17:08.426Z] [INFO ]   Total bookable across services: 9
+[2026-04-16T10:17:08.426Z] [INFO ] 📖  Querying active reservations for Hazal Düzen
+[2026-04-16T10:17:08.426Z] [INFO ]   → POST /_api/bookings-reader/v2/extended-bookings/query
+[2026-04-16T10:17:09.552Z] [INFO ]   Active reservations: 4
+[2026-04-16T10:17:09.552Z] [INFO ]   Reserved days: 2026-04-16, 2026-04-17
+[2026-04-16T10:17:09.552Z] [INFO ]   Skipped 5 slot(s) on days with existing reservations.
+[2026-04-16T10:17:09.552Z] [INFO ]   Preferences: days=Tuesday,Wednesday,Thursday,Friday,Sunday times=06:00,07:00,08:00,09:00,10:00
+[2026-04-16T10:17:09.552Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:1  match:no
+[2026-04-16T10:17:09.553Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T10:17:09.553Z] [INFO ]     Saturday 12:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:17:09.553Z] [INFO ]     Saturday 13:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:17:09.553Z] [INFO ]   No slots matched the configured preferred days/times.
+[2026-04-16T10:17:09.553Z] [INFO ] ⏳  No matching slots right now for Hazal Düzen.
+[2026-04-16T10:17:09.553Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T10:17:09.553Z] [INFO ] 🔑  Token missing/expired for Bülent Coşan — authenticating...
+[2026-04-16T10:17:09.553Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:17:09.655Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T10:17:09.655Z] [INFO ]   [2/4] Logging in as buletncosan@mail.com...
+[2026-04-16T10:17:10.630Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T10:17:10.630Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T10:17:11.087Z] [INFO ]   Session cookie created.
+[2026-04-16T10:17:11.088Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T10:17:11.235Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T14:17:11.209Z
+[2026-04-16T10:17:11.237Z] [INFO ] 👤  Fetching member profile: 5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T10:17:11.238Z] [INFO ]   → GET /_api/members/v1/members/5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T10:17:11.575Z] [INFO ] 📅  Querying slots: 2026-04-16T13:17:11 → 2026-04-23T23:59:59
+[2026-04-16T10:17:11.575Z] [INFO ]   User: Bülent Coşan
+[2026-04-16T10:17:11.575Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T10:17:11.575Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T10:17:11.575Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:17:12.052Z] [INFO ]     Total slots in window: 31
+[2026-04-16T10:17:12.052Z] [INFO ]     Bookable now:          7
+[2026-04-16T10:17:12.053Z] [INFO ]     Upcoming (too early):  19
+[2026-04-16T10:17:12.053Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T10:17:12.053Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T10:17:12.053Z] [INFO ]       • 2026-04-19T07:00:00  (opens 2026-04-17T04:00:00Z)
+[2026-04-16T10:17:12.053Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T10:17:12.053Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:17:12.624Z] [INFO ]     Total slots in window: 14
+[2026-04-16T10:17:12.624Z] [INFO ]     Bookable now:          2
+[2026-04-16T10:17:12.625Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T10:17:12.625Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T10:17:12.625Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T10:17:12.625Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T10:17:12.625Z] [INFO ]   Total bookable across services: 9
+[2026-04-16T10:17:12.625Z] [INFO ] 📖  Querying active reservations for Bülent Coşan
+[2026-04-16T10:17:12.625Z] [INFO ]   → POST /_api/bookings-reader/v2/extended-bookings/query
+[2026-04-16T10:17:13.135Z] [INFO ]   Active reservations: 0
+[2026-04-16T10:17:13.136Z] [INFO ]   Preferences: days=Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday times=06:00,07:00,08:00,09:00,10:00
+[2026-04-16T10:17:13.136Z] [INFO ]     Thursday 17:30  Antrenman Kürek  cap:1  match:no
+[2026-04-16T10:17:13.136Z] [INFO ]     Friday 18:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:17:13.136Z] [INFO ]     Friday 19:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:17:13.136Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:1  match:yes
+[2026-04-16T10:17:13.136Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T10:17:13.136Z] [INFO ]     Saturday 12:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:17:13.136Z] [INFO ]     Saturday 13:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:17:13.136Z] [INFO ]     Friday 08:00  Genel Kürek  cap:10  match:yes
+[2026-04-16T10:17:13.136Z] [INFO ]     Friday 09:00  Genel Kürek  cap:8  match:yes
+[2026-04-16T10:17:13.136Z] [INFO ]   🎯  Picked: Friday 08:00 Genel Kürek (cap 10)
+[2026-04-16T10:17:13.136Z] [INFO ] ✅  Selected slot: 2026-04-17T08:00:00 → 2026-04-17T09:00:00 (Genel Kürek)
+[2026-04-16T10:17:13.136Z] [INFO ] 📝  Creating booking → 2026-04-17T08:00:00 (Genel Kürek)
+[2026-04-16T10:17:13.136Z] [INFO ]   → POST /_api/bookings-service/v2/bulk/bookings/create
+[2026-04-16T10:17:14.194Z] [INFO ]   ✅  bookingId: a27a69a5-44c2-4a9f-8fa0-7ca476c1c4af
+[2026-04-16T10:17:14.194Z] [INFO ] 🛒  Creating checkout → bookingId: a27a69a5-44c2-4a9f-8fa0-7ca476c1c4af
+[2026-04-16T10:17:14.194Z] [INFO ] 🎟️  Fetching eligible memberships for Genel Kürek
+[2026-04-16T10:17:14.195Z] [INFO ]   → POST /memberships-spi-host/v1/list-eligible-memberships
+[2026-04-16T10:17:14.672Z] [ERROR] User Bülent Coşan has no eligible membership: No eligible membership found for Bülent Coşan and Genel Kürek
+[2026-04-16T10:17:14.672Z] [ERROR] 1 user(s) have no eligible membership. Not retrying.
+[2026-04-16T10:17:39.663Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T10:17:39.668Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T10:17:39.668Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T10:17:39.668Z] [INFO ] Trigger: manual (--once)
+[2026-04-16T10:17:39.668Z] [INFO ] 🔄  Attempt 1/3
+[2026-04-16T10:17:39.668Z] [INFO ] 👤  Booking user: Hazal Düzen
+[2026-04-16T10:17:39.668Z] [INFO ] 🔑  Token missing/expired for Hazal Düzen — authenticating...
+[2026-04-16T10:17:39.668Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:17:40.119Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T10:17:40.120Z] [INFO ]   [2/4] Logging in as hazalduzen@gmail.com...
+[2026-04-16T10:17:41.092Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T10:17:41.092Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T10:17:41.603Z] [INFO ]   Session cookie created.
+[2026-04-16T10:17:41.604Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T10:17:41.925Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T14:17:41.885Z
+[2026-04-16T10:17:41.926Z] [INFO ] 👤  Fetching member profile: e3510c2a-f218-4a3e-9f79-cdc29cfdf3cb
+[2026-04-16T10:17:41.926Z] [INFO ]   → GET /_api/members/v1/members/e3510c2a-f218-4a3e-9f79-cdc29cfdf3cb
+[2026-04-16T10:17:42.320Z] [INFO ] 📅  Querying slots: 2026-04-16T13:17:42 → 2026-04-23T23:59:59
+[2026-04-16T10:17:42.320Z] [INFO ]   User: Hazal Düzen
+[2026-04-16T10:17:42.321Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T10:17:42.321Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T10:17:42.321Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:17:42.832Z] [INFO ]     Total slots in window: 31
+[2026-04-16T10:17:42.832Z] [INFO ]     Bookable now:          7
+[2026-04-16T10:17:42.833Z] [INFO ]     Upcoming (too early):  19
+[2026-04-16T10:17:42.833Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T10:17:42.833Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T10:17:42.833Z] [INFO ]       • 2026-04-19T07:00:00  (opens 2026-04-17T04:00:00Z)
+[2026-04-16T10:17:42.833Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T10:17:42.833Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:17:43.342Z] [INFO ]     Total slots in window: 14
+[2026-04-16T10:17:43.343Z] [INFO ]     Bookable now:          2
+[2026-04-16T10:17:43.343Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T10:17:43.343Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T10:17:43.343Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T10:17:43.343Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T10:17:43.343Z] [INFO ]   Total bookable across services: 9
+[2026-04-16T10:17:43.343Z] [INFO ] 📖  Querying active reservations for Hazal Düzen
+[2026-04-16T10:17:43.343Z] [INFO ]   → POST /_api/bookings-reader/v2/extended-bookings/query
+[2026-04-16T10:17:44.471Z] [INFO ]   Active reservations: 4
+[2026-04-16T10:17:44.471Z] [INFO ]   Reserved days: 2026-04-16, 2026-04-17
+[2026-04-16T10:17:44.471Z] [INFO ]   Skipped 5 slot(s) on days with existing reservations.
+[2026-04-16T10:17:44.471Z] [INFO ]   Preferences: days=Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday times=06:00,07:00,08:00,09:00,10:00
+[2026-04-16T10:17:44.471Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:1  match:yes
+[2026-04-16T10:17:44.471Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T10:17:44.471Z] [INFO ]     Saturday 12:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:17:44.471Z] [INFO ]     Saturday 13:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:17:44.471Z] [INFO ]   🎯  Picked: Saturday 10:00 Antrenman Kürek (cap 1)
+[2026-04-16T10:17:44.471Z] [INFO ] ✅  Selected slot: 2026-04-18T10:00:00 → 2026-04-18T11:00:00 (Antrenman Kürek)
+[2026-04-16T10:17:44.472Z] [INFO ] 📝  Creating booking → 2026-04-18T10:00:00 (Antrenman Kürek)
+[2026-04-16T10:17:44.472Z] [INFO ]   → POST /_api/bookings-service/v2/bulk/bookings/create
+[2026-04-16T10:17:45.597Z] [INFO ]   ✅  bookingId: 71e46467-6272-4d57-bf86-5de96d711cf4
+[2026-04-16T10:17:45.598Z] [INFO ] 🛒  Creating checkout → bookingId: 71e46467-6272-4d57-bf86-5de96d711cf4
+[2026-04-16T10:17:45.598Z] [INFO ] 🎟️  Fetching eligible memberships for Antrenman Kürek
+[2026-04-16T10:17:45.598Z] [INFO ]   → POST /memberships-spi-host/v1/list-eligible-memberships
+[2026-04-16T10:17:46.212Z] [INFO ]   ✅  membershipId: c1b2fd59-f8e0-48f0-abca-bacfdb5e2cd2/80aa1dad-cb42-43d1-9389-e7eca5d3e4ee
+[2026-04-16T10:17:46.212Z] [INFO ]   → POST /ecom/v1/checkouts
+[2026-04-16T10:17:47.546Z] [INFO ]   ✅  checkoutId: ca727402-c94f-4b12-a2c2-97ff71f8d6cc
+[2026-04-16T10:17:47.546Z] [INFO ] 📦  Creating order → checkoutId: ca727402-c94f-4b12-a2c2-97ff71f8d6cc
+[2026-04-16T10:17:47.547Z] [INFO ]   → POST /ecom/v1/checkouts/ca727402-c94f-4b12-a2c2-97ff71f8d6cc/create-order
+[2026-04-16T10:17:49.078Z] [INFO ]   🎉  orderId: 8452f54c-6e6d-44f9-90ba-571ce5c206c1
+[2026-04-16T10:17:49.079Z] [INFO ] 
+[2026-04-16T10:17:49.079Z] [INFO ] ╔══════════════════════════════════════════╗
+[2026-04-16T10:17:49.079Z] [INFO ] ║  🎉  RESERVATION CONFIRMED!              ║
+[2026-04-16T10:17:49.079Z] [INFO ] ║  User:      Hazal Düzen                  ║
+[2026-04-16T10:17:49.079Z] [INFO ] ║  Slot:      2026-04-18T10:00             ║
+[2026-04-16T10:17:49.079Z] [INFO ] ║  Service:   Antrenman Kürek              ║
+[2026-04-16T10:17:49.079Z] [INFO ] ║  Booking:   71e46467-6272-4d57-bf86-5de96║
+[2026-04-16T10:17:49.079Z] [INFO ] ║  Order:     8452f54c-6e6d-44f9-90ba-571ce║
+[2026-04-16T10:17:49.079Z] [INFO ] ╚══════════════════════════════════════════╝
+[2026-04-16T10:17:49.079Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T10:17:49.079Z] [INFO ] 🔑  Token missing/expired for Bülent Coşan — authenticating...
+[2026-04-16T10:17:49.079Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:17:49.307Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T10:17:49.307Z] [INFO ]   [2/4] Logging in as buletncosan@mail.com...
+[2026-04-16T10:17:50.298Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T10:17:50.298Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T10:17:50.819Z] [INFO ]   Session cookie created.
+[2026-04-16T10:17:50.819Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T10:17:51.437Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T14:17:50.943Z
+[2026-04-16T10:17:51.437Z] [INFO ] 👤  Fetching member profile: 5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T10:17:51.437Z] [INFO ]   → GET /_api/members/v1/members/5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T10:17:51.844Z] [INFO ] 📅  Querying slots: 2026-04-16T13:17:51 → 2026-04-23T23:59:59
+[2026-04-16T10:17:51.844Z] [INFO ]   User: Bülent Coşan
+[2026-04-16T10:17:51.845Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T10:17:51.845Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T10:17:51.845Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:17:52.310Z] [INFO ]     Total slots in window: 31
+[2026-04-16T10:17:52.310Z] [INFO ]     Bookable now:          7
+[2026-04-16T10:17:52.310Z] [INFO ]     Upcoming (too early):  19
+[2026-04-16T10:17:52.310Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T10:17:52.310Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T10:17:52.310Z] [INFO ]       • 2026-04-19T07:00:00  (opens 2026-04-17T04:00:00Z)
+[2026-04-16T10:17:52.310Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T10:17:52.310Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:17:52.770Z] [INFO ]     Total slots in window: 14
+[2026-04-16T10:17:52.770Z] [INFO ]     Bookable now:          2
+[2026-04-16T10:17:52.770Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T10:17:52.771Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T10:17:52.771Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T10:17:52.771Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T10:17:52.771Z] [INFO ]   Total bookable across services: 9
+[2026-04-16T10:17:52.771Z] [INFO ] 📖  Querying active reservations for Bülent Coşan
+[2026-04-16T10:17:52.771Z] [INFO ]   → POST /_api/bookings-reader/v2/extended-bookings/query
+[2026-04-16T10:17:53.205Z] [INFO ]   Active reservations: 0
+[2026-04-16T10:17:53.205Z] [INFO ]   Preferences: days=Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday times=06:00,07:00,08:00,09:00,10:00
+[2026-04-16T10:17:53.205Z] [INFO ]     Thursday 17:30  Antrenman Kürek  cap:1  match:no
+[2026-04-16T10:17:53.205Z] [INFO ]     Friday 18:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:17:53.205Z] [INFO ]     Friday 19:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:17:53.205Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:1  match:yes
+[2026-04-16T10:17:53.205Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T10:17:53.205Z] [INFO ]     Saturday 12:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:17:53.205Z] [INFO ]     Saturday 13:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:17:53.205Z] [INFO ]     Friday 08:00  Genel Kürek  cap:10  match:yes
+[2026-04-16T10:17:53.205Z] [INFO ]     Friday 09:00  Genel Kürek  cap:8  match:yes
+[2026-04-16T10:17:53.206Z] [INFO ]   🎯  Picked: Friday 08:00 Genel Kürek (cap 10)
+[2026-04-16T10:17:53.206Z] [INFO ] ✅  Selected slot: 2026-04-17T08:00:00 → 2026-04-17T09:00:00 (Genel Kürek)
+[2026-04-16T10:17:53.206Z] [INFO ] 📝  Creating booking → 2026-04-17T08:00:00 (Genel Kürek)
+[2026-04-16T10:17:53.206Z] [INFO ]   → POST /_api/bookings-service/v2/bulk/bookings/create
+[2026-04-16T10:17:54.097Z] [INFO ]   ✅  bookingId: db84d53b-2482-4a8c-ab8f-980aebf8a2b6
+[2026-04-16T10:17:54.097Z] [INFO ] 🛒  Creating checkout → bookingId: db84d53b-2482-4a8c-ab8f-980aebf8a2b6
+[2026-04-16T10:17:54.097Z] [INFO ] 🎟️  Fetching eligible memberships for Genel Kürek
+[2026-04-16T10:17:54.097Z] [INFO ]   → POST /memberships-spi-host/v1/list-eligible-memberships
+[2026-04-16T10:17:54.506Z] [ERROR] User Bülent Coşan has no eligible membership: No eligible membership found for Bülent Coşan and Genel Kürek
+[2026-04-16T10:17:54.506Z] [ERROR] 1 user(s) have no eligible membership. Not retrying.
+[2026-04-16T10:44:36.408Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T10:44:36.413Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T10:44:36.413Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T10:44:36.415Z] [ERROR] Fatal error: Error: Missing required user config values: users[0].account.password, users[1].account.password
+    at validateUsers (/Users/bulentcosan/Desktop/git/sunset/index.js:305:11)
+    at validateConfig (/Users/bulentcosan/Desktop/git/sunset/index.js:259:3)
+    at main (/Users/bulentcosan/Desktop/git/sunset/index.js:35:3)
+    at Object.<anonymous> (/Users/bulentcosan/Desktop/git/sunset/index.js:27:3)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14)
+    at Object..js (node:internal/modules/cjs/loader:1892:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+[2026-04-16T10:45:58.280Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T10:45:58.284Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T10:45:58.284Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T10:45:58.284Z] [INFO ] Trigger: manual (--once)
+[2026-04-16T10:45:58.285Z] [INFO ] 🔄  Attempt 1/3
+[2026-04-16T10:45:58.285Z] [INFO ] 👤  Booking user: Hazal Düzen
+[2026-04-16T10:45:58.285Z] [INFO ] 🔑  Token missing/expired for Hazal Düzen — authenticating...
+[2026-04-16T10:45:58.285Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:45:58.825Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T10:45:58.825Z] [INFO ]   [2/4] Logging in as hazalduzen@gmail.com...
+[2026-04-16T10:45:59.934Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T10:45:59.934Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T10:46:00.444Z] [INFO ]   Session cookie created.
+[2026-04-16T10:46:00.445Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T10:46:00.730Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T14:46:00.680Z
+[2026-04-16T10:46:00.730Z] [INFO ] 👤  Fetching member profile: e3510c2a-f218-4a3e-9f79-cdc29cfdf3cb
+[2026-04-16T10:46:00.730Z] [INFO ]   → GET /_api/members/v1/members/e3510c2a-f218-4a3e-9f79-cdc29cfdf3cb
+[2026-04-16T10:46:01.162Z] [INFO ] 📅  Querying slots: 2026-04-16T13:46:01 → 2026-04-23T23:59:59
+[2026-04-16T10:46:01.162Z] [INFO ]   User: Hazal Düzen
+[2026-04-16T10:46:01.162Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T10:46:01.162Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T10:46:01.162Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:46:01.689Z] [INFO ]     Total slots in window: 31
+[2026-04-16T10:46:01.689Z] [INFO ]     Bookable now:          7
+[2026-04-16T10:46:01.690Z] [INFO ]     Upcoming (too early):  19
+[2026-04-16T10:46:01.690Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T10:46:01.690Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T10:46:01.690Z] [INFO ]       • 2026-04-19T07:00:00  (opens 2026-04-17T04:00:00Z)
+[2026-04-16T10:46:01.690Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T10:46:01.690Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:46:02.288Z] [INFO ]     Total slots in window: 14
+[2026-04-16T10:46:02.288Z] [INFO ]     Bookable now:          2
+[2026-04-16T10:46:02.288Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T10:46:02.288Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T10:46:02.288Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T10:46:02.289Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T10:46:02.289Z] [INFO ]   Total bookable across services: 9
+[2026-04-16T10:46:02.289Z] [INFO ] 📖  Querying active reservations for Hazal Düzen
+[2026-04-16T10:46:02.289Z] [INFO ]   → POST /_api/bookings-reader/v2/extended-bookings/query
+[2026-04-16T10:46:03.416Z] [INFO ]   Active reservations: 4
+[2026-04-16T10:46:03.416Z] [INFO ]   Reserved days: 2026-04-16, 2026-04-17
+[2026-04-16T10:46:03.416Z] [INFO ]   Skipped 5 slot(s) on days with existing reservations.
+[2026-04-16T10:46:03.416Z] [INFO ]   Preferences: days=Tuesday,Wednesday,Friday,Saturday,Sunday times=06:00,07:00
+[2026-04-16T10:46:03.416Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:1  match:no
+[2026-04-16T10:46:03.416Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T10:46:03.416Z] [INFO ]     Saturday 12:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:46:03.416Z] [INFO ]     Saturday 13:00  Antrenman Kürek  cap:7  match:no
+[2026-04-16T10:46:03.416Z] [INFO ]   No slots matched the configured preferred days/times.
+[2026-04-16T10:46:03.417Z] [INFO ] ⏳  No matching slots right now for Hazal Düzen.
+[2026-04-16T10:46:03.417Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T10:46:03.417Z] [INFO ] 🔑  Token missing/expired for Bülent Coşan — authenticating...
+[2026-04-16T10:46:03.417Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:46:03.535Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T10:46:03.535Z] [INFO ]   [2/4] Logging in as buletncosan@mail.com...
+[2026-04-16T10:46:04.540Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T10:46:04.541Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T10:46:05.052Z] [INFO ]   Session cookie created.
+[2026-04-16T10:46:05.052Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T10:46:05.204Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T14:46:05.192Z
+[2026-04-16T10:46:05.205Z] [INFO ] 👤  Fetching member profile: 5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T10:46:05.205Z] [INFO ]   → GET /_api/members/v1/members/5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T10:46:05.571Z] [INFO ] 📅  Querying slots: 2026-04-16T13:46:05 → 2026-04-23T23:59:59
+[2026-04-16T10:46:05.571Z] [INFO ]   User: Bülent Coşan
+[2026-04-16T10:46:05.572Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T10:46:05.572Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T10:46:05.572Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:46:06.077Z] [INFO ]     Total slots in window: 31
+[2026-04-16T10:46:06.077Z] [INFO ]     Bookable now:          7
+[2026-04-16T10:46:06.077Z] [INFO ]     Upcoming (too early):  19
+[2026-04-16T10:46:06.077Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T10:46:06.077Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T10:46:06.077Z] [INFO ]       • 2026-04-19T07:00:00  (opens 2026-04-17T04:00:00Z)
+[2026-04-16T10:46:06.077Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T10:46:06.077Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:46:06.691Z] [INFO ]     Total slots in window: 14
+[2026-04-16T10:46:06.691Z] [INFO ]     Bookable now:          2
+[2026-04-16T10:46:06.692Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T10:46:06.692Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T10:46:06.692Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T10:46:06.692Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T10:46:06.692Z] [INFO ]   Total bookable across services: 9
+[2026-04-16T10:46:06.692Z] [INFO ] 📖  Querying active reservations for Bülent Coşan
+[2026-04-16T10:46:06.692Z] [INFO ]   → POST /_api/bookings-reader/v2/extended-bookings/query
+[2026-04-16T10:46:07.203Z] [INFO ]   Active reservations: 0
+[2026-04-16T10:46:07.203Z] [INFO ]   Preferences: days=Tuesday,Wednesday,Friday,Saturday,Sunday times=06:00,07:00
+[2026-04-16T10:46:07.204Z] [INFO ]     Thursday 17:30  Antrenman Kürek  cap:1  match:no
+[2026-04-16T10:46:07.204Z] [INFO ]     Friday 18:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:46:07.204Z] [INFO ]     Friday 19:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:46:07.204Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:1  match:no
+[2026-04-16T10:46:07.204Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T10:46:07.204Z] [INFO ]     Saturday 12:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:46:07.204Z] [INFO ]     Saturday 13:00  Antrenman Kürek  cap:7  match:no
+[2026-04-16T10:46:07.204Z] [INFO ]     Friday 08:00  Genel Kürek  cap:10  match:no
+[2026-04-16T10:46:07.204Z] [INFO ]     Friday 09:00  Genel Kürek  cap:7  match:no
+[2026-04-16T10:46:07.204Z] [INFO ]   No slots matched the configured preferred days/times.
+[2026-04-16T10:46:07.204Z] [INFO ] ⏳  No matching slots right now for Bülent Coşan.
+[2026-04-16T10:49:37.094Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T10:49:37.099Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T10:49:37.099Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T10:49:37.099Z] [INFO ] Trigger: manual (--once)
+[2026-04-16T10:49:37.099Z] [INFO ] 🔄  Attempt 1/3
+[2026-04-16T10:49:37.100Z] [INFO ] 👤  Booking user: Hazal Düzen
+[2026-04-16T10:49:37.100Z] [INFO ] 🔑  Token missing/expired for Hazal Düzen — authenticating...
+[2026-04-16T10:49:37.100Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:49:37.562Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T10:49:37.563Z] [INFO ]   [2/4] Logging in as hazalduzen@gmail.com...
+[2026-04-16T10:49:38.561Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T10:49:38.561Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T10:49:39.072Z] [INFO ]   Session cookie created.
+[2026-04-16T10:49:39.072Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T10:49:39.375Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T14:49:39.317Z
+[2026-04-16T10:49:39.375Z] [INFO ] 👤  Fetching member profile: e3510c2a-f218-4a3e-9f79-cdc29cfdf3cb
+[2026-04-16T10:49:39.375Z] [INFO ]   → GET /_api/members/v1/members/e3510c2a-f218-4a3e-9f79-cdc29cfdf3cb
+[2026-04-16T10:49:39.788Z] [INFO ] 📅  Querying slots: 2026-04-16T13:49:39 → 2026-04-23T23:59:59
+[2026-04-16T10:49:39.789Z] [INFO ]   User: Hazal Düzen
+[2026-04-16T10:49:39.789Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T10:49:39.791Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T10:49:39.791Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:49:40.301Z] [INFO ]     Total slots in window: 31
+[2026-04-16T10:49:40.301Z] [INFO ]     Bookable now:          7
+[2026-04-16T10:49:40.301Z] [INFO ]     Upcoming (too early):  19
+[2026-04-16T10:49:40.301Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T10:49:40.301Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T10:49:40.301Z] [INFO ]       • 2026-04-19T07:00:00  (opens 2026-04-17T04:00:00Z)
+[2026-04-16T10:49:40.301Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T10:49:40.301Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:49:40.813Z] [INFO ]     Total slots in window: 14
+[2026-04-16T10:49:40.813Z] [INFO ]     Bookable now:          2
+[2026-04-16T10:49:40.813Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T10:49:40.813Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T10:49:40.813Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T10:49:40.813Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T10:49:40.813Z] [INFO ]   Total bookable across services: 9
+[2026-04-16T10:49:40.813Z] [INFO ] 📖  Querying active reservations for Hazal Düzen
+[2026-04-16T10:49:40.813Z] [INFO ]   → POST /_api/bookings-reader/v2/extended-bookings/query
+[2026-04-16T10:49:41.889Z] [INFO ]   Active reservations: 4
+[2026-04-16T10:49:41.889Z] [INFO ]   Reserved days: 2026-04-16, 2026-04-17
+[2026-04-16T10:49:41.890Z] [INFO ]   Skipped 5 slot(s) on days with existing reservations.
+[2026-04-16T10:49:41.890Z] [INFO ]   Preferences: days=Tuesday,Wednesday,Friday,Saturday,Sunday times=06:00,07:00
+[2026-04-16T10:49:41.890Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:1  match:no
+[2026-04-16T10:49:41.890Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T10:49:41.890Z] [INFO ]     Saturday 12:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:49:41.890Z] [INFO ]     Saturday 13:00  Antrenman Kürek  cap:7  match:no
+[2026-04-16T10:49:41.890Z] [INFO ]   No slots matched the configured preferred days/times.
+[2026-04-16T10:49:41.890Z] [INFO ] ⏳  No matching slots right now for Hazal Düzen.
+[2026-04-16T10:49:41.890Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T10:49:41.890Z] [INFO ] 🔑  Token missing/expired for Bülent Coşan — authenticating...
+[2026-04-16T10:49:41.890Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:49:41.993Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T10:49:41.993Z] [INFO ]   [2/4] Logging in as buletncosan@mail.com...
+[2026-04-16T10:49:42.964Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T10:49:42.964Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T10:49:43.475Z] [INFO ]   Session cookie created.
+[2026-04-16T10:49:43.475Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T10:49:44.090Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T14:49:43.611Z
+[2026-04-16T10:49:44.090Z] [INFO ] 👤  Fetching member profile: 5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T10:49:44.090Z] [INFO ]   → GET /_api/members/v1/members/5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T10:49:44.432Z] [INFO ] 📅  Querying slots: 2026-04-16T13:49:44 → 2026-04-23T23:59:59
+[2026-04-16T10:49:44.432Z] [INFO ]   User: Bülent Coşan
+[2026-04-16T10:49:44.433Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T10:49:44.433Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T10:49:44.433Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:49:45.011Z] [INFO ]     Total slots in window: 31
+[2026-04-16T10:49:45.011Z] [INFO ]     Bookable now:          7
+[2026-04-16T10:49:45.011Z] [INFO ]     Upcoming (too early):  19
+[2026-04-16T10:49:45.011Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T10:49:45.011Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T10:49:45.011Z] [INFO ]       • 2026-04-19T07:00:00  (opens 2026-04-17T04:00:00Z)
+[2026-04-16T10:49:45.012Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T10:49:45.012Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:49:45.523Z] [INFO ]     Total slots in window: 14
+[2026-04-16T10:49:45.523Z] [INFO ]     Bookable now:          2
+[2026-04-16T10:49:45.523Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T10:49:45.523Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T10:49:45.523Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T10:49:45.523Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T10:49:45.523Z] [INFO ]   Total bookable across services: 9
+[2026-04-16T10:49:45.523Z] [INFO ] 📖  Querying active reservations for Bülent Coşan
+[2026-04-16T10:49:45.523Z] [INFO ]   → POST /_api/bookings-reader/v2/extended-bookings/query
+[2026-04-16T10:49:46.035Z] [INFO ]   Active reservations: 0
+[2026-04-16T10:49:46.035Z] [INFO ]   Preferences: days=Tuesday,Wednesday,Friday,Saturday,Sunday times=06:00,07:00
+[2026-04-16T10:49:46.035Z] [INFO ]     Thursday 17:30  Antrenman Kürek  cap:1  match:no
+[2026-04-16T10:49:46.035Z] [INFO ]     Friday 18:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:49:46.035Z] [INFO ]     Friday 19:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:49:46.035Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:1  match:no
+[2026-04-16T10:49:46.035Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T10:49:46.035Z] [INFO ]     Saturday 12:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:49:46.035Z] [INFO ]     Saturday 13:00  Antrenman Kürek  cap:7  match:no
+[2026-04-16T10:49:46.035Z] [INFO ]     Friday 08:00  Genel Kürek  cap:10  match:no
+[2026-04-16T10:49:46.035Z] [INFO ]     Friday 09:00  Genel Kürek  cap:7  match:no
+[2026-04-16T10:49:46.035Z] [INFO ]   No slots matched the configured preferred days/times.
+[2026-04-16T10:49:46.035Z] [INFO ] ⏳  No matching slots right now for Bülent Coşan.
+[2026-04-16T10:49:46.035Z] [INFO ] 👤  Booking user: Metehan Günel
+[2026-04-16T10:49:46.036Z] [INFO ] 🔑  Token missing/expired for Metehan Günel — authenticating...
+[2026-04-16T10:49:46.036Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:49:46.259Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T10:49:46.260Z] [INFO ]   [2/4] Logging in as metehangnel@gmail.com...
+[2026-04-16T10:49:47.174Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T10:49:47.174Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T10:49:47.614Z] [INFO ]   Session cookie created.
+[2026-04-16T10:49:47.614Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T10:49:48.493Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T14:49:47.757Z
+[2026-04-16T10:49:48.493Z] [INFO ] 👤  Fetching member profile: d3ab6a3e-c03d-470b-8cd4-10fdc658a3a0
+[2026-04-16T10:49:48.493Z] [INFO ]   → GET /_api/members/v1/members/d3ab6a3e-c03d-470b-8cd4-10fdc658a3a0
+[2026-04-16T10:49:48.903Z] [INFO ] 📅  Querying slots: 2026-04-16T13:49:48 → 2026-04-23T23:59:59
+[2026-04-16T10:49:48.903Z] [INFO ]   User: Metehan Günel
+[2026-04-16T10:49:48.903Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T10:49:48.903Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T10:49:48.903Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:49:49.414Z] [INFO ]     Total slots in window: 31
+[2026-04-16T10:49:49.414Z] [INFO ]     Bookable now:          7
+[2026-04-16T10:49:49.415Z] [INFO ]     Upcoming (too early):  19
+[2026-04-16T10:49:49.415Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T10:49:49.415Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T10:49:49.415Z] [INFO ]       • 2026-04-19T07:00:00  (opens 2026-04-17T04:00:00Z)
+[2026-04-16T10:49:49.415Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T10:49:49.415Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:49:49.926Z] [INFO ]     Total slots in window: 14
+[2026-04-16T10:49:49.926Z] [INFO ]     Bookable now:          2
+[2026-04-16T10:49:49.926Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T10:49:49.926Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T10:49:49.927Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T10:49:49.927Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T10:49:49.927Z] [INFO ]   Total bookable across services: 9
+[2026-04-16T10:49:49.927Z] [INFO ] 📖  Querying active reservations for Metehan Günel
+[2026-04-16T10:49:49.927Z] [INFO ]   → POST /_api/bookings-reader/v2/extended-bookings/query
+[2026-04-16T10:49:51.155Z] [INFO ]   Active reservations: 2
+[2026-04-16T10:49:51.156Z] [INFO ]   Reserved days: 2026-04-18
+[2026-04-16T10:49:51.156Z] [INFO ]   Skipped 4 slot(s) on days with existing reservations.
+[2026-04-16T10:49:51.156Z] [INFO ]   Preferences: days=Saturday,Sunday times=06:00,07:00
+[2026-04-16T10:49:51.156Z] [INFO ]     Thursday 17:30  Antrenman Kürek  cap:1  match:no
+[2026-04-16T10:49:51.156Z] [INFO ]     Friday 18:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:49:51.156Z] [INFO ]     Friday 19:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:49:51.156Z] [INFO ]     Friday 08:00  Genel Kürek  cap:10  match:no
+[2026-04-16T10:49:51.156Z] [INFO ]     Friday 09:00  Genel Kürek  cap:7  match:no
+[2026-04-16T10:49:51.156Z] [INFO ]   No slots matched the configured preferred days/times.
+[2026-04-16T10:49:51.156Z] [INFO ] ⏳  No matching slots right now for Metehan Günel.
+[2026-04-16T10:51:05.766Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T10:51:05.771Z] [INFO ]    Sunset Kürek  –  Reservation Bot  🚣   
+[2026-04-16T10:51:05.771Z] [INFO ] ═══════════════════════════════════════════
+[2026-04-16T10:51:05.772Z] [INFO ] Trigger: manual (--once)
+[2026-04-16T10:51:05.772Z] [INFO ] 🔄  Attempt 1/3
+[2026-04-16T10:51:05.772Z] [INFO ] 👤  Booking user: Hazal Düzen
+[2026-04-16T10:51:05.772Z] [INFO ] 🔑  Token missing/expired for Hazal Düzen — authenticating...
+[2026-04-16T10:51:05.772Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:51:06.362Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T10:51:06.362Z] [INFO ]   [2/4] Logging in as hazalduzen@gmail.com...
+[2026-04-16T10:51:07.325Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T10:51:07.326Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T10:51:07.853Z] [INFO ]   Session cookie created.
+[2026-04-16T10:51:07.854Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T10:51:08.138Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T14:51:08.087Z
+[2026-04-16T10:51:08.139Z] [INFO ] 👤  Fetching member profile: e3510c2a-f218-4a3e-9f79-cdc29cfdf3cb
+[2026-04-16T10:51:08.139Z] [INFO ]   → GET /_api/members/v1/members/e3510c2a-f218-4a3e-9f79-cdc29cfdf3cb
+[2026-04-16T10:51:08.516Z] [INFO ] 📅  Querying slots: 2026-04-16T13:51:08 → 2026-04-23T23:59:59
+[2026-04-16T10:51:08.516Z] [INFO ]   User: Hazal Düzen
+[2026-04-16T10:51:08.516Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T10:51:08.516Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T10:51:08.516Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:51:09.010Z] [INFO ]     Total slots in window: 31
+[2026-04-16T10:51:09.010Z] [INFO ]     Bookable now:          7
+[2026-04-16T10:51:09.011Z] [INFO ]     Upcoming (too early):  19
+[2026-04-16T10:51:09.011Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T10:51:09.011Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T10:51:09.011Z] [INFO ]       • 2026-04-19T07:00:00  (opens 2026-04-17T04:00:00Z)
+[2026-04-16T10:51:09.011Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T10:51:09.011Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:51:09.595Z] [INFO ]     Total slots in window: 14
+[2026-04-16T10:51:09.595Z] [INFO ]     Bookable now:          2
+[2026-04-16T10:51:09.595Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T10:51:09.595Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T10:51:09.595Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T10:51:09.595Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T10:51:09.595Z] [INFO ]   Total bookable across services: 9
+[2026-04-16T10:51:09.595Z] [INFO ] 📖  Querying active reservations for Hazal Düzen
+[2026-04-16T10:51:09.596Z] [INFO ]   → POST /_api/bookings-reader/v2/extended-bookings/query
+[2026-04-16T10:51:10.773Z] [INFO ]   Active reservations: 4
+[2026-04-16T10:51:10.773Z] [INFO ]   Reserved days: 2026-04-16, 2026-04-17
+[2026-04-16T10:51:10.773Z] [INFO ]   Skipped 5 slot(s) on days with existing reservations.
+[2026-04-16T10:51:10.773Z] [INFO ]   Preferences: days=Tuesday,Wednesday,Friday,Saturday,Sunday times=06:00,07:00
+[2026-04-16T10:51:10.773Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:1  match:no
+[2026-04-16T10:51:10.773Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T10:51:10.773Z] [INFO ]     Saturday 12:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:51:10.773Z] [INFO ]     Saturday 13:00  Antrenman Kürek  cap:7  match:no
+[2026-04-16T10:51:10.773Z] [INFO ]   No slots matched the configured preferred days/times.
+[2026-04-16T10:51:10.773Z] [INFO ] ⏳  No matching slots right now for Hazal Düzen.
+[2026-04-16T10:51:10.773Z] [INFO ] 👤  Booking user: Bülent Coşan
+[2026-04-16T10:51:10.773Z] [INFO ] 🔑  Token missing/expired for Bülent Coşan — authenticating...
+[2026-04-16T10:51:10.773Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:51:10.875Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T10:51:10.875Z] [INFO ]   [2/4] Logging in as buletncosan@mail.com...
+[2026-04-16T10:51:11.952Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T10:51:11.952Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T10:51:12.461Z] [INFO ]   Session cookie created.
+[2026-04-16T10:51:12.462Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T10:51:12.594Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T14:51:12.578Z
+[2026-04-16T10:51:12.594Z] [INFO ] 👤  Fetching member profile: 5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T10:51:12.594Z] [INFO ]   → GET /_api/members/v1/members/5bd4da62-6994-4689-bd7c-690f1aaeab7d
+[2026-04-16T10:51:12.929Z] [INFO ] 📅  Querying slots: 2026-04-16T13:51:12 → 2026-04-23T23:59:59
+[2026-04-16T10:51:12.930Z] [INFO ]   User: Bülent Coşan
+[2026-04-16T10:51:12.930Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T10:51:12.930Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T10:51:12.930Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:51:13.407Z] [INFO ]     Total slots in window: 31
+[2026-04-16T10:51:13.408Z] [INFO ]     Bookable now:          7
+[2026-04-16T10:51:13.408Z] [INFO ]     Upcoming (too early):  19
+[2026-04-16T10:51:13.408Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T10:51:13.408Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T10:51:13.408Z] [INFO ]       • 2026-04-19T07:00:00  (opens 2026-04-17T04:00:00Z)
+[2026-04-16T10:51:13.408Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T10:51:13.408Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:51:13.896Z] [INFO ]     Total slots in window: 14
+[2026-04-16T10:51:13.896Z] [INFO ]     Bookable now:          2
+[2026-04-16T10:51:13.896Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T10:51:13.897Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T10:51:13.897Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T10:51:13.897Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T10:51:13.897Z] [INFO ]   Total bookable across services: 9
+[2026-04-16T10:51:13.897Z] [INFO ] 📖  Querying active reservations for Bülent Coşan
+[2026-04-16T10:51:13.897Z] [INFO ]   → POST /_api/bookings-reader/v2/extended-bookings/query
+[2026-04-16T10:51:14.363Z] [INFO ]   Active reservations: 0
+[2026-04-16T10:51:14.363Z] [INFO ]   Preferences: days=Tuesday,Wednesday,Friday,Saturday,Sunday times=06:00,07:00
+[2026-04-16T10:51:14.363Z] [INFO ]     Thursday 17:30  Antrenman Kürek  cap:1  match:no
+[2026-04-16T10:51:14.363Z] [INFO ]     Friday 18:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:51:14.363Z] [INFO ]     Friday 19:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:51:14.363Z] [INFO ]     Saturday 10:00  Antrenman Kürek  cap:1  match:no
+[2026-04-16T10:51:14.363Z] [INFO ]     Saturday 11:00  Antrenman Kürek  cap:5  match:no
+[2026-04-16T10:51:14.363Z] [INFO ]     Saturday 12:00  Antrenman Kürek  cap:8  match:no
+[2026-04-16T10:51:14.363Z] [INFO ]     Saturday 13:00  Antrenman Kürek  cap:7  match:no
+[2026-04-16T10:51:14.363Z] [INFO ]     Friday 08:00  Genel Kürek  cap:10  match:no
+[2026-04-16T10:51:14.364Z] [INFO ]     Friday 09:00  Genel Kürek  cap:7  match:no
+[2026-04-16T10:51:14.364Z] [INFO ]   No slots matched the configured preferred days/times.
+[2026-04-16T10:51:14.364Z] [INFO ] ⏳  No matching slots right now for Bülent Coşan.
+[2026-04-16T10:51:14.364Z] [INFO ] 👤  Booking user: Metehan Günel
+[2026-04-16T10:51:14.364Z] [INFO ] 🔑  Token missing/expired for Metehan Günel — authenticating...
+[2026-04-16T10:51:14.364Z] [INFO ]   [1/4] Loading site...
+[2026-04-16T10:51:14.592Z] [INFO ]   Anonymous token: FtPdv4wBHYCrt8NrHGfRMuAhm9h4ml...
+[2026-04-16T10:51:14.592Z] [INFO ]   [2/4] Logging in as metehangnel@gmail.com...
+[2026-04-16T10:51:15.535Z] [INFO ]   Login OK. MST2: MST2.eyJraWQiOiJTQTFOQnVNMyIsImFsZyI6IlJ...
+[2026-04-16T10:51:15.536Z] [INFO ]   [3/4] Creating session cookie...
+[2026-04-16T10:51:15.986Z] [INFO ]   Session cookie created.
+[2026-04-16T10:51:15.986Z] [INFO ]   [4/4] Fetching access tokens...
+[2026-04-16T10:51:16.150Z] [INFO ]   ✅  Bookings token obtained. Expires: 2026-04-16T14:51:16.116Z
+[2026-04-16T10:51:16.150Z] [INFO ] 👤  Fetching member profile: d3ab6a3e-c03d-470b-8cd4-10fdc658a3a0
+[2026-04-16T10:51:16.150Z] [INFO ]   → GET /_api/members/v1/members/d3ab6a3e-c03d-470b-8cd4-10fdc658a3a0
+[2026-04-16T10:51:16.557Z] [INFO ] 📅  Querying slots: 2026-04-16T13:51:16 → 2026-04-23T23:59:59
+[2026-04-16T10:51:16.558Z] [INFO ]   User: Metehan Günel
+[2026-04-16T10:51:16.558Z] [INFO ]   Services: Antrenman Kürek, Genel Kürek
+[2026-04-16T10:51:16.558Z] [INFO ]   Checking service: Antrenman Kürek
+[2026-04-16T10:51:16.558Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:51:17.070Z] [INFO ]     Total slots in window: 31
+[2026-04-16T10:51:17.070Z] [INFO ]     Bookable now:          7
+[2026-04-16T10:51:17.070Z] [INFO ]     Upcoming (too early):  19
+[2026-04-16T10:51:17.070Z] [INFO ]       • 2026-04-18T14:00:00  (opens 2026-04-16T11:00:00Z)
+[2026-04-16T10:51:17.070Z] [INFO ]       • 2026-04-18T15:00:00  (opens 2026-04-16T12:00:00Z)
+[2026-04-16T10:51:17.070Z] [INFO ]       • 2026-04-19T07:00:00  (opens 2026-04-17T04:00:00Z)
+[2026-04-16T10:51:17.070Z] [INFO ]   Checking service: Genel Kürek
+[2026-04-16T10:51:17.070Z] [INFO ]   → POST /_api/service-availability/v2/time-slots/event
+[2026-04-16T10:51:17.581Z] [INFO ]     Total slots in window: 14
+[2026-04-16T10:51:17.582Z] [INFO ]     Bookable now:          2
+[2026-04-16T10:51:17.582Z] [INFO ]     Upcoming (too early):  11
+[2026-04-16T10:51:17.582Z] [INFO ]       • 2026-04-21T07:00:00  (opens 2026-04-19T04:00:00Z)
+[2026-04-16T10:51:17.582Z] [INFO ]       • 2026-04-21T08:00:00  (opens 2026-04-19T05:00:00Z)
+[2026-04-16T10:51:17.582Z] [INFO ]       • 2026-04-21T09:00:00  (opens 2026-04-19T06:00:00Z)
+[2026-04-16T10:51:17.582Z] [INFO ]   Total bookable across services: 9
+[2026-04-16T10:51:17.582Z] [INFO ] 📖  Querying active reservations for Metehan Günel
+[2026-04-16T10:51:17.582Z] [INFO ]   → POST /_api/bookings-reader/v2/extended-bookings/query
+[2026-04-16T10:51:18.811Z] [INFO ]   Active reservations: 2
+[2026-04-16T10:51:18.811Z] [INFO ]   Reserved days: 2026-04-18
+[2026-04-16T10:51:18.811Z] [INFO ]   Skipped 4 slot(s) on days with existing reservations.
+[2026-04-16T10:51:18.811Z] [INFO ]   Preferences: days=Saturday,Sunday times=06:00,07:00,10:00
+[2026-04-16T10:51:18.811Z] [INFO ]     Thursday 17:30  Antrenman Kürek  cap:1  match:no
+[2026-04-16T10:51:18.811Z] [INFO ]     Friday 18:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:51:18.811Z] [INFO ]     Friday 19:00  Antrenman Kürek  cap:10  match:no
+[2026-04-16T10:51:18.811Z] [INFO ]     Friday 08:00  Genel Kürek  cap:10  match:no
+[2026-04-16T10:51:18.811Z] [INFO ]     Friday 09:00  Genel Kürek  cap:7  match:no
+[2026-04-16T10:51:18.811Z] [INFO ]   No slots matched the configured preferred days/times.
+[2026-04-16T10:51:18.811Z] [INFO ] ⏳  No matching slots right now for Metehan Günel.
