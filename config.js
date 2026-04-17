@@ -96,7 +96,7 @@ module.exports = {
       },
       session: {
         preferredDays: ["Saturday", "Sunday"],
-        preferredTimes: ["06:00", "07:00"],
+        preferredTimes: ["06:00", "07:00", "10:00"],
       },
     },
     {
