@@ -77,17 +77,17 @@ module.exports = {
         preferredTimes: ["06:00", "07:00"],
       },
     },
-    {
-      name: "Bülent Coşan",
-      account: {
-        email: "buletncosan@mail.com",
-        password: env("SUNSET_BULENT_COSAN_PASSWORD"),
-      },
-      session: {
-        preferredDays: ["Tuesday", "Wednesday", "Friday", "Saturday", "Sunday"],
-        preferredTimes: ["06:00", "07:00"],
-      },
-    },
+    // {
+    //   name: "Bülent Coşan",
+    //   account: {
+    //     email: "buletncosan@mail.com",
+    //     password: env("SUNSET_BULENT_COSAN_PASSWORD"),
+    //   },
+    //   session: {
+    //     preferredDays: ["Tuesday", "Wednesday", "Friday", "Saturday", "Sunday"],
+    //     preferredTimes: ["06:00", "07:00"],
+    //   },
+    // },
     {
       name: "İsmail Altaş",
       account: {
@@ -96,7 +96,7 @@ module.exports = {
       },
       session: {
         preferredDays: ["Saturday", "Sunday"],
-        preferredTimes: ["06:00", "07:00", "10:00"],
+        preferredTimes: ["06:00", "07:00"],
       },
     },
     {
